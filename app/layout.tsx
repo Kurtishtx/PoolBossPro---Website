@@ -4,8 +4,8 @@ import Footer from "./components/Footer";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "PoolBossPro | Lawn Care & Pest Control Software",
-  description: "PoolBossPro is premium lawn care and pest control software built by people who've run real routes. Circle a map area and instantly know sq ft, stops, and chemical needs. $129/month, everything included.",
+  title: "PoolBossPro | Pool Service & Pool Route Software",
+  description: "PoolBossPro is pool service software built by people who have run real pool routes — recurring scheduling, water-chemistry logging, route mapping, automated SMS, and Stripe billing. $99/month, everything included.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

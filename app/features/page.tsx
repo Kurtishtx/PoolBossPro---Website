@@ -143,8 +143,8 @@ export default function Features() {
       {/* HERO */}
       <div className="hero">
         <div className="hero-badge">Full Feature List</div>
-        <h1>Everything You Need to Run<br /><span>Your Spray Business</span></h1>
-        <p>PoolBossPro is built specifically for lawn care and pest control. Every feature listed here is included in your $129/month — nothing locked, nothing extra.</p>
+        <h1>Everything You Need to Run<br /><span>Your Pool Service Business</span></h1>
+        <p>PoolBossPro is built specifically for pool service and pool maintenance companies. Every feature listed here is included in your $99/month — nothing locked, nothing extra.</p>
         <div className="hero-btns">
           <button className="btn-primary" onClick={(e) => openSignupModal(1, e.currentTarget as HTMLElement)}>Start Your 14-Day Free Trial</button>
         </div>
@@ -156,15 +156,15 @@ export default function Features() {
           <div className="spotlight-text">
             <div className="spotlight-label">Only in PoolBossPro</div>
             <div className="spotlight-title">Circle an Area on the Map.<br /><span>Instantly Know Everything Inside It.</span></div>
-            <div className="spotlight-desc">On the waiting list map, draw a circle around any geographic area. PoolBossPro instantly shows you the total sq ft, linear ft, stop count, number of services, and a breakdown of every service type inside that circle — before you schedule a single stop.</div>
+            <div className="spotlight-desc">On the waiting list map, draw a circle around any geographic area. PoolBossPro instantly shows you the total pool count, stop count, number of services, and a breakdown of every service type inside that circle — before you schedule a single stop.</div>
             <ul className="spotlight-checks">
               <li>Draw a lasso around any area on the map</li>
-              <li>See total sq ft and linear ft for everything inside</li>
+              <li>See the total number of pools inside the circle</li>
               <li>Total stops and total services in the selected area</li>
               <li>Breakdown by service type with totals for each</li>
               <li>Schedule all circled stops with one click</li>
               <li>They drop straight onto the dispatch board with a full route map</li>
-              <li>No other lawn care or pest control software does this</li>
+              <li>No other pool service software does this</li>
             </ul>
           </div>
           <div className="spotlight-visual">
@@ -180,9 +180,9 @@ export default function Features() {
             <div className="stat-row">
               <div className="stat-box"><div className="stat-val">14</div><div className="stat-lbl">Stops Selected</div></div>
               <div className="stat-box"><div className="stat-val">19</div><div className="stat-lbl">Total Services</div></div>
-              <div className="stat-box"><div className="stat-val">118,400</div><div className="stat-lbl">Sq Ft</div></div>
-              <div className="stat-box"><div className="stat-val">4,200</div><div className="stat-lbl">Linear Ft</div></div>
-              <div className="stat-box wide"><div className="stat-val">Lawn Care 4 · 8 &nbsp;|&nbsp; Mosquito · 6 &nbsp;|&nbsp; Insect · 5</div><div className="stat-lbl">Services by Type</div></div>
+              <div className="stat-box"><div className="stat-val">14</div><div className="stat-lbl">Pools</div></div>
+              <div className="stat-box"><div className="stat-val">9</div><div className="stat-lbl">Salt Systems</div></div>
+              <div className="stat-box wide"><div className="stat-val">Weekly Clean · 8 &nbsp;|&nbsp; Chem Check · 6 &nbsp;|&nbsp; Filter Clean · 5</div><div className="stat-lbl">Services by Type</div></div>
             </div>
             <button style={{width:'100%',marginTop:'14px',background:'var(--orange)',color:'#fff',border:'none',borderRadius:'8px',padding:'13px',fontSize:'14px',fontWeight:700,cursor:'pointer',fontFamily:'inherit'}}
               onClick={(e) => openSignupModal(1, e.currentTarget as HTMLElement)}>Schedule These 14 Stops →</button>
@@ -199,14 +199,14 @@ export default function Features() {
           </div>
           <div className="feat-grid">
             {[
-              {t:'Sq Ft Waiting List by Service Type',d:'See total square footage waiting for each service type before you build a route. Know what you have before you make a call.'},
-              {t:'Circle-to-Schedule Map Tool',d:'Draw a circle on the waiting list map. Get instant totals — sq ft, linear ft, stops, services by type — then schedule them all at once.'},
-              {t:'One-Click Schedule from Waiting List',d:'Click any property and assign a date, tech, and truck in seconds. No extra screens, no copy-paste.'},
+              {t:'Pool Waiting List by Service Type',d:'See every pool waiting for each service type before you build a route. Know what you have before you make a call.'},
+              {t:'Circle-to-Schedule Map Tool',d:'Draw a circle on the waiting list map. Get instant totals — pools, stops, services by type — then schedule them all at once.'},
+              {t:'One-Click Schedule from Waiting List',d:'Click any pool and assign a date, tech, and truck in seconds. No extra screens, no copy-paste.'},
               {t:'Daily Dispatch Board',d:'All scheduled stops for any day in one view. Filter by tech, truck, or service. Print dispatch sheets for drivers.'},
               {t:'Technician & Truck Assignment',d:'Assign a tech and truck to every stop at scheduling time. Track who handled what and with which vehicle.'},
               {t:'Mark Complete, Skip, or Reschedule',d:'Update stop status from the board or mobile app. Skipped stops return to the waiting list automatically.'},
-              {t:'Day Summary Bar',d:'Total stops, total sq ft, and total revenue for the day shown at the top of the dispatch board at a glance.'},
-              {t:'Full Service History per Property',d:'Every completed stop logged to the property record with date, tech, notes, and chemicals used.'},
+              {t:'Day Summary Bar',d:'Total stops, total pools serviced, and total revenue for the day shown at the top of the dispatch board at a glance.'},
+              {t:'Full Service History per Pool',d:'Every completed stop logged to the pool record with date, tech, notes, and chemicals added.'},
             ].map((f,i) => (
               <div key={i} className="feat-item"><div className="feat-item-title">{f.t}</div><p>{f.d}</p></div>
             ))}
@@ -225,7 +225,7 @@ export default function Features() {
             {[
               {t:'Live Route Map',d:'Every scheduled stop for the day pinned on an interactive map. See your full route before anyone leaves the shop.'},
               {t:'Drag-and-Drop Stop Reordering',d:'Reorder stops on the map or dispatch board. Build tight geographic clusters to cut windshield time.'},
-              {t:'GPS Coordinates per Property',d:'Every property stores GPS coordinates for accurate map pinning and turn-by-turn navigation links.'},
+              {t:'GPS Coordinates per Pool',d:'Every pool stores GPS coordinates for accurate map pinning and turn-by-turn navigation links.'},
               {t:'Color-Coded Status Pins',d:"Map pins update color as stops are completed or skipped — see your crew's progress in real time from the office."},
             ].map((f,i) => (
               <div key={i} className="feat-item"><div className="feat-item-title">{f.t}</div><p>{f.d}</p></div>
@@ -239,16 +239,16 @@ export default function Features() {
         <div className="cat-block" style={{maxWidth:'1200px',margin:'0 auto'}}>
           <div className="cat-header">
             <span className="cat-icon">🧪</span>
-            <div><div className="cat-title">Chemical Tracking &amp; Compliance</div><div className="cat-desc">Every application logged automatically — print a compliance report in under 30 seconds</div></div>
+            <div><div className="cat-title">Water Chemistry Tracking &amp; Records</div><div className="cat-desc">Every reading and chemical dose logged automatically — print a service report in under 30 seconds</div></div>
           </div>
           <div className="feat-grid">
             {[
-              {t:'Application Log per Stop',d:'Product, mix rate, gallons, area treated, and weather logged on every completed job — automatically.'},
-              {t:'Technician & License Tracking',d:'Record which tech made the application and their license number — required for most state compliance records.'},
-              {t:'Product Catalog with Mix Recipes',d:'Build your product library once. Techs select from your catalog in the field — no free-typing product names.'},
-              {t:'Area Type Logging',d:'Log treatment area — lawn, shrubs, flower beds, perimeter, interior — per application for detailed records.'},
-              {t:'Filter by Product, Property, Tech, or Date',d:'Pull any slice of your chemical history instantly. Find every application of a specific product across all properties.'},
-              {t:'Print-Ready Compliance Reports',d:'Generate a formatted pesticide application report for any date range or property. Ready for any state inspector.'},
+              {t:'Water Chemistry Log per Stop',d:'Chlorine, pH, alkalinity, salt, stabilizer, and phosphate readings plus every chemical added logged on every visit — automatically.'},
+              {t:'Technician & Certification Tracking',d:'Record which tech serviced the pool and their certification — perfect for commercial accounts and health-department records.'},
+              {t:'Chemical Catalog with Dosing Recipes',d:'Build your chemical library once. Techs select from your catalog in the field — no free-typing product names.'},
+              {t:'Reading Type Logging',d:'Log every test — chlorine, pH, alkalinity, salt, calcium hardness, cyanuric acid — per visit for detailed records.'},
+              {t:'Filter by Chemical, Pool, Tech, or Date',d:'Pull any slice of your water chemistry history instantly. Find every dose of a specific chemical across all pools.'},
+              {t:'Print-Ready Service Reports',d:'Generate a formatted water chemistry and service report for any date range or pool. Ready for any commercial account or inspector.'},
             ].map((f,i) => (
               <div key={i} className="feat-item"><div className="feat-item-title">{f.t}</div><p>{f.d}</p></div>
             ))}
@@ -311,13 +311,13 @@ export default function Features() {
             {[
               {t:'Two-Way SMS Inbox',d:'Send and receive texts with customers inside PoolBossPro. Full conversation history organized by contact.'},
               {t:'Service Scheduled Alert',d:'Customer gets a text the moment a service is added to the schedule. Fully customizable message.'},
-              {t:'Tech On the Way Alert',d:'Notify customers automatically when your technician is heading to their property.'},
+              {t:'Tech On the Way Alert',d:'Notify customers automatically when your technician is heading to their pool.'},
               {t:'Service Completed Alert',d:'Text the customer when the job is marked done — what was done, no phone call needed.'},
               {t:'Service Skipped Alert',d:"If a stop is skipped, an alert goes out automatically so the customer isn't left in the dark."},
               {t:'Estimate Sent & Accepted Alerts',d:'Notify clients when their estimate is on the way, and get notified yourself when they accept.'},
               {t:'Google Review Request',d:'Automatically sent after every completed service. More 5-star reviews with zero extra effort.'},
               {t:'Payment & Estimate Follow-Up Sequences',d:'3-step automated sequences for both unpaid invoices and unanswered estimates — fully customizable timing and copy.'},
-              {t:'500 SMS/Month Included',d:'500 outbound SMS messages included in the $129/month. Add more in blocks of 500 for $15 each.'},
+              {t:'500 SMS/Month Included',d:'500 outbound SMS messages included in the $99/month. Add more in blocks of 500 for $15 each.'},
               {t:'Customizable Alert Templates',d:'Edit the message for every alert type. Use your own voice and include details that matter to your customers.'},
             ].map((f,i) => (
               <div key={i} className="feat-item"><div className="feat-item-title">{f.t}</div><p>{f.d}</p></div>
@@ -331,16 +331,16 @@ export default function Features() {
         <div className="cat-block">
           <div className="cat-header">
             <span className="cat-icon">🏠</span>
-            <div><div className="cat-title">Clients, Leads &amp; Properties</div><div className="cat-desc">Full CRM built for spray businesses — everything tied to the address, not just the name</div></div>
+            <div><div className="cat-title">Clients, Leads &amp; Pools</div><div className="cat-desc">Full CRM built for pool service businesses — everything tied to the pool, not just the name</div></div>
           </div>
           <div className="feat-grid">
             {[
               {t:'Client Database',d:'Full searchable database of every customer — contact info, notes, service history, invoices, and estimates in one place.'},
               {t:'Lead Management',d:'Track open prospects separately from active clients. Manage estimates, follow-ups, and conversion all in one view.'},
-              {t:'Property Profiles',d:'Every address has its own record — sq footage, GPS, photos, service history, chemical log, and notes.'},
-              {t:'Multiple Properties per Client',d:'One client can own multiple service addresses. Each property is tracked independently with its own full history.'},
-              {t:'Property Photos & Notes',d:'Attach photos and field notes to any property. Tech notes from the field show up in the office view instantly.'},
-              {t:'Unlimited Clients & Properties',d:'No caps. 50 accounts or 5,000 — same flat price, no tiers.'},
+              {t:'Pool Profiles',d:'Every pool has its own record — gallons, surface type, equipment, GPS, photos, service history, water chemistry log, and notes.'},
+              {t:'Multiple Pools per Client',d:'One client can own multiple pools or properties. Each pool is tracked independently with its own full history.'},
+              {t:'Pool Photos & Notes',d:'Attach photos and field notes to any pool. Tech notes from the field show up in the office view instantly.'},
+              {t:'Unlimited Clients & Pools',d:'No caps. 50 accounts or 5,000 — same flat price, no tiers.'},
             ].map((f,i) => (
               <div key={i} className="feat-item"><div className="feat-item-title">{f.t}</div><p>{f.d}</p></div>
             ))}
@@ -353,14 +353,14 @@ export default function Features() {
         <div className="cat-block">
           <div className="cat-header">
             <span className="cat-icon">📦</span>
-            <div><div className="cat-title">Package Programs &amp; Renewals</div><div className="cat-desc">Manage recurring treatment packages and never miss a renewal</div></div>
+            <div><div className="cat-title">Service Plans &amp; Renewals</div><div className="cat-desc">Manage recurring pool service plans and never miss a renewal</div></div>
           </div>
           <div className="feat-grid">
             {[
-              {t:'Custom Package Plans',d:'Create any package — 6-app lawn care, quarterly pest, annual mosquito. Fully custom service types and counts.'},
-              {t:'Assign Clients to Packages',d:'Link any client to any package. Track start date, treatments used, and treatments remaining automatically.'},
-              {t:'Renewal Alerts',d:'Get alerted before a package expires so you can reach out before the client looks elsewhere.'},
-              {t:'Treatment Count Tracking',d:'PoolBossPro counts down remaining applications automatically each time a service is marked complete.'},
+              {t:'Custom Service Plans',d:'Create any plan — weekly full-service, biweekly cleaning, seasonal open/close, monthly chem check. Fully custom service types and counts.'},
+              {t:'Assign Clients to Plans',d:'Link any client to any plan. Track start date, visits used, and visits remaining automatically.'},
+              {t:'Renewal Alerts',d:'Get alerted before a plan expires so you can reach out before the client looks elsewhere.'},
+              {t:'Visit Count Tracking',d:'PoolBossPro counts down remaining visits automatically each time a service is marked complete.'},
             ].map((f,i) => (
               <div key={i} className="feat-item"><div className="feat-item-title">{f.t}</div><p>{f.d}</p></div>
             ))}
@@ -400,8 +400,8 @@ export default function Features() {
             {[
               {t:'Daily Stop List',d:'Techs see only their assigned stops for the day — optimized for mobile with clear status and large tap targets.'},
               {t:'Mark Complete from the Field',d:'Tap to mark complete, skip, or reschedule — all without calling the office. Syncs in real time.'},
-              {t:'Chemical Log Entry',d:'Techs log the product, rate, gallons, and weather at each stop from their phone. Records are automatic.'},
-              {t:'Property Notes & Photos',d:'Techs can add field notes and photos to any property from their device. Office sees them instantly.'},
+              {t:'Water Chemistry Log Entry',d:'Techs log chlorine, pH, salt, and every chemical added at each pool from their phone. Records are automatic.'},
+              {t:'Pool Notes & Photos',d:'Techs can add field notes and photos to any pool from their device. Office sees them instantly.'},
               {t:'No App Download Required',d:"PoolBossPro's mobile experience runs in any browser. No app store, no install, no update prompts."},
             ].map((f,i) => (
               <div key={i} className="feat-item"><div className="feat-item-title">{f.t}</div><p>{f.d}</p></div>
@@ -419,10 +419,10 @@ export default function Features() {
           </div>
           <div className="feat-grid">
             {[
-              {t:'Custom Dashboard Stat Cards',d:"Today's revenue, stops completed, properties served, money owed — all on your dashboard when you log in."},
+              {t:'Custom Dashboard Stat Cards',d:"Today's revenue, stops completed, pools serviced, money owed — all on your dashboard when you log in."},
               {t:'Revenue Tracking',d:"Track revenue by day, week, or month. See what's been collected vs. what's still outstanding at any time."},
               {t:'Outstanding Balance View',d:'Total amount owed across all open invoices at a glance — drill into individual accounts in one click.'},
-              {t:'Chemical Compliance Reports',d:'Pull a print-ready pesticide application report for any date range, product, property, or technician in seconds.'},
+              {t:'Water Chemistry Reports',d:'Pull a print-ready water chemistry and chemical-dosing report for any date range, chemical, pool, or technician in seconds.'},
               {t:'Payroll Hour Reports',d:'Employee hour totals by date range — export-ready for your payroll process without a separate system.'},
             ].map((f,i) => (
               <div key={i} className="feat-item"><div className="feat-item-title">{f.t}</div><p>{f.d}</p></div>
@@ -433,7 +433,7 @@ export default function Features() {
 
       {/* CTA */}
       <div className="cta-band">
-        <h2>Every Feature. One Price.<br />$129/Month.</h2>
+        <h2>Every Feature. One Price.<br />$99/Month.</h2>
         <p>No tiers, no locked features, no per-user fees. Start free for 14 days — no credit card required.</p>
         <div className="hero-btns">
           <button className="btn-primary" style={{fontSize:'17px',padding:'18px 44px'}} onClick={(e) => openSignupModal(2, e.currentTarget as HTMLElement)}>Start Your 14-Day Free Trial</button>
@@ -456,13 +456,13 @@ export default function Features() {
             <div style={{flex:1}}><label style={{fontSize:'11px',fontWeight:700,color:'#555',textTransform:'uppercase',letterSpacing:'.5px',display:'block',marginBottom:'5px'}}>First Name</label><input id="sbp1-first" type="text" placeholder="John" style={{width:'100%',border:'1px solid #ddd',borderRadius:'6px',padding:'10px 12px',fontSize:'14px',fontFamily:'inherit',color:'#333'}} /></div>
             <div style={{flex:1}}><label style={{fontSize:'11px',fontWeight:700,color:'#555',textTransform:'uppercase',letterSpacing:'.5px',display:'block',marginBottom:'5px'}}>Last Name</label><input id="sbp1-last" type="text" placeholder="Smith" style={{width:'100%',border:'1px solid #ddd',borderRadius:'6px',padding:'10px 12px',fontSize:'14px',fontFamily:'inherit',color:'#333'}} /></div>
           </div>
-          <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px',fontWeight:700,color:'#555',textTransform:'uppercase',letterSpacing:'.5px',display:'block',marginBottom:'5px'}}>Company Name</label><input id="sbp1-company" type="text" placeholder="Smith Lawn & Spray Co." style={{width:'100%',border:'1px solid #ddd',borderRadius:'6px',padding:'10px 12px',fontSize:'14px',fontFamily:'inherit',color:'#333'}} /></div>
+          <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px',fontWeight:700,color:'#555',textTransform:'uppercase',letterSpacing:'.5px',display:'block',marginBottom:'5px'}}>Company Name</label><input id="sbp1-company" type="text" placeholder="Smith Pool Service Co." style={{width:'100%',border:'1px solid #ddd',borderRadius:'6px',padding:'10px 12px',fontSize:'14px',fontFamily:'inherit',color:'#333'}} /></div>
           <div style={{marginBottom:'20px'}}><label style={{fontSize:'11px',fontWeight:700,color:'#555',textTransform:'uppercase',letterSpacing:'.5px',display:'block',marginBottom:'5px'}}>Email Address</label><input id="sbp1-email" type="email" placeholder="you@yourcompany.com" style={{width:'100%',border:'1px solid #ddd',borderRadius:'6px',padding:'10px 12px',fontSize:'14px',fontFamily:'inherit',color:'#333'}} /></div>
           <button onClick={() => sbpStep2(1)} style={{width:'100%',background:'#0d9488',color:'#fff',border:'none',borderRadius:'6px',padding:'13px',fontSize:'15px',fontWeight:700,cursor:'pointer',fontFamily:'inherit'}}>Next: Create Password →</button>
         </div>
         <div id="sbp1-step2" style={{padding:'24px 28px',display:'none'}}>
           <div id="sbp1-err2" style={{background:'#fff0f0',border:'1px solid #f5c6c6',color:'#c0392b',borderRadius:'6px',padding:'10px 12px',fontSize:'13px',marginBottom:'14px',display:'none'}}></div>
-          <div style={{background:'#f0fdf4',border:'1px solid #bbf7d0',borderRadius:'6px',padding:'10px 14px',marginBottom:'16px'}}><div style={{fontSize:'12px',color:'#16a34a',fontWeight:700}}>14-Day Free Trial — No Credit Card Required</div><div style={{fontSize:'12px',color:'#555',marginTop:'2px'}}>Full access to every feature. $129/month after trial.</div></div>
+          <div style={{background:'#f0fdf4',border:'1px solid #bbf7d0',borderRadius:'6px',padding:'10px 14px',marginBottom:'16px'}}><div style={{fontSize:'12px',color:'#16a34a',fontWeight:700}}>14-Day Free Trial — No Credit Card Required</div><div style={{fontSize:'12px',color:'#555',marginTop:'2px'}}>Full access to every feature. $99/month after trial.</div></div>
           <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px',fontWeight:700,color:'#555',textTransform:'uppercase',letterSpacing:'.5px',display:'block',marginBottom:'5px'}}>Login Email</label><input id="sbp1-login-email" type="email" readOnly style={{width:'100%',border:'1px solid #ddd',borderRadius:'6px',padding:'10px 12px',fontSize:'14px',fontFamily:'inherit',background:'#f8f8f8',color:'#333'}} /></div>
           <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px',fontWeight:700,color:'#555',textTransform:'uppercase',letterSpacing:'.5px',display:'block',marginBottom:'5px'}}>Password</label><input id="sbp1-password" type="password" placeholder="At least 8 characters" style={{width:'100%',border:'1px solid #ddd',borderRadius:'6px',padding:'10px 12px',fontSize:'14px',fontFamily:'inherit',color:'#333'}} /></div>
           <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px',fontWeight:700,color:'#555',textTransform:'uppercase',letterSpacing:'.5px',display:'block',marginBottom:'5px'}}>Confirm Password</label><input id="sbp1-confirm" type="password" placeholder="Repeat password" style={{width:'100%',border:'1px solid #ddd',borderRadius:'6px',padding:'10px 12px',fontSize:'14px',fontFamily:'inherit',color:'#333'}} /></div>
@@ -494,13 +494,13 @@ export default function Features() {
             <div style={{flex:1}}><label style={{fontSize:'11px',fontWeight:700,color:'#555',textTransform:'uppercase',letterSpacing:'.5px',display:'block',marginBottom:'5px'}}>First Name</label><input id="sbp2-first" type="text" placeholder="John" style={{width:'100%',border:'1px solid #ddd',borderRadius:'6px',padding:'10px 12px',fontSize:'14px',fontFamily:'inherit',color:'#333'}} /></div>
             <div style={{flex:1}}><label style={{fontSize:'11px',fontWeight:700,color:'#555',textTransform:'uppercase',letterSpacing:'.5px',display:'block',marginBottom:'5px'}}>Last Name</label><input id="sbp2-last" type="text" placeholder="Smith" style={{width:'100%',border:'1px solid #ddd',borderRadius:'6px',padding:'10px 12px',fontSize:'14px',fontFamily:'inherit',color:'#333'}} /></div>
           </div>
-          <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px',fontWeight:700,color:'#555',textTransform:'uppercase',letterSpacing:'.5px',display:'block',marginBottom:'5px'}}>Company Name</label><input id="sbp2-company" type="text" placeholder="Smith Lawn & Spray Co." style={{width:'100%',border:'1px solid #ddd',borderRadius:'6px',padding:'10px 12px',fontSize:'14px',fontFamily:'inherit',color:'#333'}} /></div>
+          <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px',fontWeight:700,color:'#555',textTransform:'uppercase',letterSpacing:'.5px',display:'block',marginBottom:'5px'}}>Company Name</label><input id="sbp2-company" type="text" placeholder="Smith Pool Service Co." style={{width:'100%',border:'1px solid #ddd',borderRadius:'6px',padding:'10px 12px',fontSize:'14px',fontFamily:'inherit',color:'#333'}} /></div>
           <div style={{marginBottom:'20px'}}><label style={{fontSize:'11px',fontWeight:700,color:'#555',textTransform:'uppercase',letterSpacing:'.5px',display:'block',marginBottom:'5px'}}>Email Address</label><input id="sbp2-email" type="email" placeholder="you@yourcompany.com" style={{width:'100%',border:'1px solid #ddd',borderRadius:'6px',padding:'10px 12px',fontSize:'14px',fontFamily:'inherit',color:'#333'}} /></div>
           <button onClick={() => sbpStep2(2)} style={{width:'100%',background:'#0d9488',color:'#fff',border:'none',borderRadius:'6px',padding:'13px',fontSize:'15px',fontWeight:700,cursor:'pointer',fontFamily:'inherit'}}>Next: Create Password →</button>
         </div>
         <div id="sbp2-step2" style={{padding:'24px 28px',display:'none'}}>
           <div id="sbp2-err2" style={{background:'#fff0f0',border:'1px solid #f5c6c6',color:'#c0392b',borderRadius:'6px',padding:'10px 12px',fontSize:'13px',marginBottom:'14px',display:'none'}}></div>
-          <div style={{background:'#f0fdf4',border:'1px solid #bbf7d0',borderRadius:'6px',padding:'10px 14px',marginBottom:'16px'}}><div style={{fontSize:'12px',color:'#16a34a',fontWeight:700}}>14-Day Free Trial — No Credit Card Required</div><div style={{fontSize:'12px',color:'#555',marginTop:'2px'}}>Full access to every feature. $129/month after trial.</div></div>
+          <div style={{background:'#f0fdf4',border:'1px solid #bbf7d0',borderRadius:'6px',padding:'10px 14px',marginBottom:'16px'}}><div style={{fontSize:'12px',color:'#16a34a',fontWeight:700}}>14-Day Free Trial — No Credit Card Required</div><div style={{fontSize:'12px',color:'#555',marginTop:'2px'}}>Full access to every feature. $99/month after trial.</div></div>
           <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px',fontWeight:700,color:'#555',textTransform:'uppercase',letterSpacing:'.5px',display:'block',marginBottom:'5px'}}>Login Email</label><input id="sbp2-login-email" type="email" readOnly style={{width:'100%',border:'1px solid #ddd',borderRadius:'6px',padding:'10px 12px',fontSize:'14px',fontFamily:'inherit',background:'#f8f8f8',color:'#333'}} /></div>
           <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px',fontWeight:700,color:'#555',textTransform:'uppercase',letterSpacing:'.5px',display:'block',marginBottom:'5px'}}>Password</label><input id="sbp2-password" type="password" placeholder="At least 8 characters" style={{width:'100%',border:'1px solid #ddd',borderRadius:'6px',padding:'10px 12px',fontSize:'14px',fontFamily:'inherit',color:'#333'}} /></div>
           <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px',fontWeight:700,color:'#555',textTransform:'uppercase',letterSpacing:'.5px',display:'block',marginBottom:'5px'}}>Confirm Password</label><input id="sbp2-confirm" type="password" placeholder="Repeat password" style={{width:'100%',border:'1px solid #ddd',borderRadius:'6px',padding:'10px 12px',fontSize:'14px',fontFamily:'inherit',color:'#333'}} /></div>

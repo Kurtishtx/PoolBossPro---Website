@@ -42,7 +42,7 @@ async function sbpCreateAccount(n: number) {
     const trialEnd = new Date(Date.now() + 14 * 24 * 60 * 60 * 1000).toISOString();
     await sb.from('user_profiles').upsert({ id: uid, email, role: 'full_access', is_primary_owner: true, tenant_id: null, trial_ends_at: trialEnd, product: 'poolbosspro' }, { onConflict: 'id' });
     await sb.from('company_info').insert({ user_id: uid, company_name: comp, display_name: comp });
-    await sb.from('platform_accounts').insert({ user_id: uid, email, plan: 'Monthly Subscription', monthly_amount: 129, trial_ends_at: trialEnd, active: false });
+    await sb.from('platform_accounts').insert({ user_id: uid, email, plan: 'Monthly Subscription', monthly_amount: 99, trial_ends_at: trialEnd, active: false });
     const reasons = ['Cancel Maintaining Self','Cancel Sold House','Cancel Too Expensive','Cancel Unknown','Dropping Customer','Sold House'].map(nm => ({ name: nm, active: true, user_id: uid }));
     await sb.from('cancellation_reasons').insert(reasons);
     document.getElementById('sbp' + n + '-step2')!.style.display = 'none'; document.getElementById('sbp' + n + '-success')!.style.display = 'block';
@@ -213,15 +213,15 @@ export default function Home() {
       {/* ═══ MOCKUP IMAGE ═══ */}
       <div style={{background:'linear-gradient(135deg,#0f1720 0%,#1f2937 60%,#263445 100%)', padding:'80px 40px 0', textAlign:'center'}}>
         <div style={{maxWidth:'1000px', margin:'0 auto'}}>
-          <img src="/dashboard-mockup.webp" width={1200} height={800} fetchPriority="high" decoding="async" alt="PoolBossPro spray business software showing the circle-map route builder, waiting list, and mobile app for lawn care and pest control technicians" style={{width:'100%', height:'auto', borderRadius:'16px', boxShadow:'0 32px 80px rgba(0,0,0,.5)', display:'block'}} />
+          <img src="/dashboard-mockup.webp" width={1200} height={800} fetchPriority="high" decoding="async" alt="PoolBossPro pool service software showing the circle-map route builder, waiting list, and mobile app for pool cleaning and maintenance technicians" style={{width:'100%', height:'auto', borderRadius:'16px', boxShadow:'0 32px 80px rgba(0,0,0,.5)', display:'block'}} />
         </div>
       </div>
 
       {/* ═══ HERO ═══ */}
       <div className="hero" style={{paddingTop:'60px'}}>
-        <div className="hero-badge">Built for Lawn Care &amp; Pest Control</div>
+        <div className="hero-badge">Built for Pool Service &amp; Pool Maintenance</div>
         <h1>Run Your Entire Operation<br /><span>From One Dashboard</span></h1>
-        <p>PoolBossPro is the all-in-one field management platform built specifically for lawn care and pest control businesses. Schedule jobs, send estimates, collect payments, and keep your team coordinated — all in one place.</p>
+        <p>PoolBossPro is the all-in-one field management platform built specifically for pool service and pool maintenance businesses. Schedule visits, send estimates, collect payments, and keep your team coordinated — all in one place.</p>
         <div className="hero-btns">
           <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }} className="btn-primary">Start Your 14-Day Free Trial</a>
         </div>
@@ -236,14 +236,14 @@ export default function Home() {
       {/* ═══ PREMIUM BAND ═══ */}
       <div className="premium-band">
         <h2>Affordable Doesn&apos;t Mean Cheap.<br /><span>This Is Enterprise-Level Software.</span></h2>
-        <p>We charged less because we&apos;ve been the customer. We know what it feels like to pay $600 a month for software that still doesn&apos;t do what your business actually needs. PoolBossPro does everything the enterprise platforms do — route mapping, chemical compliance, automated SMS, Stripe payments, role-based access, mobile app — built specifically for spray businesses, and priced for the real world. $129 a month isn&apos;t a cheap price. It&apos;s a fair price. The big platforms aren&apos;t charging $500 because they&apos;re better. They&apos;re charging $500 because they can — and because their customers don&apos;t have a better option. Now you do.</p>
+        <p>We charged less because we&apos;ve been the customer. We know what it feels like to pay $600 a month for software that still doesn&apos;t do what your business actually needs. PoolBossPro does everything the enterprise platforms do — route mapping, water-chemistry logging, automated SMS, Stripe payments, role-based access, mobile app — built specifically for pool service businesses, and priced for the real world. $99 a month isn&apos;t a cheap price. It&apos;s a fair price. The big platforms aren&apos;t charging $500 because they&apos;re better. They&apos;re charging $500 because they can — and because their customers don&apos;t have a better option. Now you do.</p>
         <div className="premium-grid">
           <div className="premium-card"><div className="premium-card-icon">🗺️</div><h4>Enterprise Route Intelligence</h4><p>Live route maps, drag-and-drop stop ordering, and circle-to-schedule map selection — tools that cost thousands per month at other platforms are standard in PoolBossPro at every plan level.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">🧪</div><h4>Full Chemical Compliance Engine</h4><p>Pesticide application logs, technician license tracking, weather conditions per application, print-ready compliance reports — built to hold up to any state inspector, at no extra charge.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">🧪</div><h4>Full Water Chemistry Engine</h4><p>Chlorine, pH, alkalinity, salt and stabilizer readings logged per visit, chemical dosing records, technician tracking, print-ready service reports — built to give every customer a complete history of their pool, at no extra charge.</p></div>
           <div className="premium-card"><div className="premium-card-icon">💬</div><h4>Automated Communication Suite</h4><p>10+ automated SMS alert types, a two-way texting inbox, 3-step estimate follow-up sequences, 3-step payment follow-up sequences — all running without you every single day.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">💳</div><h4>Stripe Payment Processing</h4><p>Card-on-file storage, post-service billing, partial payments, automated payment reminders, and full payment history. The same billing infrastructure the big guys use — included in your $129.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">💳</div><h4>Stripe Payment Processing</h4><p>Card-on-file storage, post-service billing, partial payments, automated payment reminders, and full payment history. The same billing infrastructure the big guys use — included in your $99.</p></div>
           <div className="premium-card"><div className="premium-card-icon">👑</div><h4>Role-Based Access Control</h4><p>Owner, Manager, Office, Technician, and Mobile roles — the same granular permission system as platforms charging 5× more per month. Your office staff sees what they need. Your techs see only their stops.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">📱</div><h4>Full Mobile App for Field Techs</h4><p>Your technicians manage their stops, log chemicals, mark complete, add notes, and skip stops from their phone — all in a mobile-optimized view purpose-built for someone in a truck.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">📱</div><h4>Full Mobile App for Field Techs</h4><p>Your technicians manage their stops, log water readings and chemical dosing, mark complete, add notes, and skip stops from their phone — all in a mobile-optimized view purpose-built for someone in a truck.</p></div>
         </div>
       </div>
 
@@ -253,17 +253,17 @@ export default function Home() {
           <div className="highlight-text">
             <span className="section-label">Only in PoolBossPro</span>
             <h2>Circle Any Area on the Map.<br />Instantly Know Everything Inside It.</h2>
-            <p>No other lawn care or pest control software has this. On the waiting list map, draw a circle around any geographic area — a neighborhood, a ZIP code, a corridor — and PoolBossPro instantly calculates every detail of what&apos;s inside before you schedule a single stop or mix a single gallon.</p>
-            <p style={{marginTop:'12px'}}>This isn&apos;t just a map feature. It&apos;s a business intelligence tool. You can look at a section of your service area and know in seconds whether it&apos;s worth building a route around, how many trucks to send, what to load, and how much chemical to mix. No calls. No guesses. No wasted time.</p>
+            <p>No other pool service software has this. On the waiting list map, draw a circle around any geographic area — a neighborhood, a ZIP code, a corridor — and PoolBossPro instantly calculates every detail of what&apos;s inside before you schedule a single pool stop or load a single jug of chemicals.</p>
+            <p style={{marginTop:'12px'}}>This isn&apos;t just a map feature. It&apos;s a business intelligence tool. You can look at a section of your service area and know in seconds whether it&apos;s worth building a route around, how many techs to send, and what to load on the truck. No calls. No guesses. No wasted time.</p>
             <ul className="check-list">
-              <li>Total sq ft and linear ft for all properties inside the circle</li>
+              <li>Total pool count and water volume for all properties inside the circle</li>
               <li>Total stop count and total number of services across all types</li>
-              <li>Breakdown by service type — Lawn Care 4 · 8, Mosquito · 6, Insect · 5, etc.</li>
-              <li>Per-service sq ft totals so you know exactly how much chemical to mix before loading</li>
+              <li>Breakdown by service type — Weekly Cleaning · 8, Chemical-Only · 6, Filter Clean · 5, etc.</li>
+              <li>Per-service totals so you know exactly how much chemical to load before heading out</li>
               <li>Schedule all circled stops at once — they drop straight to the dispatch board with a full route map</li>
               <li>All service types are fully customizable to match exactly how your operation runs</li>
-              <li>The system calculates how much to do per day and how many gallons to mix per service</li>
-              <li>Know before you load the truck. Know before you mix a gallon. Stop wasting both.</li>
+              <li>The system calculates how many pools to service per day and what chemicals to load per route</li>
+              <li>Know before you load the truck. Know before you build the route. Stop wasting both.</li>
             </ul>
           </div>
           <div className="highlight-visual">
@@ -280,9 +280,9 @@ export default function Home() {
             <div className="stat-grid">
               <div className="stat-cell"><div className="stat-val">14</div><div className="stat-lbl">Stops Selected</div></div>
               <div className="stat-cell"><div className="stat-val">19</div><div className="stat-lbl">Total Services</div></div>
-              <div className="stat-cell"><div className="stat-val">118,400</div><div className="stat-lbl">Sq Ft</div></div>
-              <div className="stat-cell"><div className="stat-val">4,200</div><div className="stat-lbl">Linear Ft</div></div>
-              <div className="stat-cell full"><div className="stat-val">Lawn Care 4 · 8 &nbsp;|&nbsp; Mosquito · 6 &nbsp;|&nbsp; Insect · 5</div><div className="stat-lbl">Breakdown by Service Type</div></div>
+              <div className="stat-cell"><div className="stat-val">14</div><div className="stat-lbl">Pools</div></div>
+              <div className="stat-cell"><div className="stat-val">312K</div><div className="stat-lbl">Gallons of Water</div></div>
+              <div className="stat-cell full"><div className="stat-val">Weekly Cleaning · 8 &nbsp;|&nbsp; Chemical-Only · 6 &nbsp;|&nbsp; Filter Clean · 5</div><div className="stat-lbl">Breakdown by Service Type</div></div>
             </div>
             <button style={{width:'100%', marginTop:'12px', background:'var(--orange)', color:'#fff', border:'none', borderRadius:'8px', padding:'13px', fontSize:'14px', fontWeight:700, cursor:'pointer', fontFamily:'inherit'}}>Schedule These 14 Stops →</button>
             <div style={{marginTop:'10px', textAlign:'center', color:'rgba(255,255,255,.35)', fontSize:'11px'}}>Drops to dispatch board with full route map</div>
@@ -298,9 +298,9 @@ export default function Home() {
           <p className="section-sub">The big enterprise platforms take weeks to learn, months to set up, and require a dedicated person just to manage them. PoolBossPro is designed so any owner or office manager can be running real routes on day one — without training, without a consultant, without an IT department.</p>
         </div>
         <div className="simple-grid">
-          <div className="simple-card"><div className="simple-num">01</div><h3>Set Up in One Afternoon</h3><p>Add your service types, import your clients and properties, set up your chemical mixes, and configure your SMS alert templates. Most businesses are scheduling real routes the same day they sign up. No implementation fee. No onboarding consultant. No 6-hour kickoff call.</p></div>
+          <div className="simple-card"><div className="simple-num">01</div><h3>Set Up in One Afternoon</h3><p>Add your service types, import your clients and pools, set up your chemical dosing presets, and configure your SMS alert templates. Most businesses are scheduling real routes the same day they sign up. No implementation fee. No onboarding consultant. No 6-hour kickoff call.</p></div>
           <div className="simple-card"><div className="simple-num">02</div><h3>One Screen Does Everything</h3><p>The dispatch board shows your waiting list, your scheduled stops, your route map, your day summary, and your chemical needs all in one place. Your crew gets their stops on their phone. You&apos;re not switching between six different apps to run your day.</p></div>
-          <div className="simple-card"><div className="simple-num">03</div><h3>Your Techs Learn It in Minutes</h3><p>The mobile tech view is built for people in trucks, not office managers at desks. Big buttons, clear status, one tap to mark complete, log chemicals, skip a stop, or add a note. We&apos;ve had technicians learn the system while sitting in the parking lot before their first stop.</p></div>
+          <div className="simple-card"><div className="simple-num">03</div><h3>Your Techs Learn It in Minutes</h3><p>The mobile tech view is built for people in trucks, not office managers at desks. Big buttons, clear status, one tap to mark complete, log water readings and chemical dosing, skip a stop, or add a note. We&apos;ve had technicians learn the system while sitting in the parking lot before their first pool.</p></div>
           <div className="simple-card"><div className="simple-num">04</div><h3>Automation Runs Without You</h3><p>Set your alert templates once — scheduled, completed, skipped, estimate follow-ups, payment follow-ups, review requests. After that, PoolBossPro handles customer communication automatically on every single job, every single day, without you having to think about it again.</p></div>
         </div>
       </section>
@@ -313,15 +313,15 @@ export default function Home() {
           <p className="section-sub">PoolBossPro replaces your scheduling app, your billing software, your texting tool, and your route planner — all under one roof.</p>
         </div>
         <div className="feature-grid">
-          <div className="feature-card"><span className="feature-icon">📋</span><h3>Smart Scheduling</h3><p>PoolBossPro is smart enough to know exactly how much work is waiting. For every service type on your waiting list, it automatically totals the square footage or linear footage so you know precisely how much you can fit in a day before you ever make a single call. No more guessing, no more overbooking — just look at your waiting list, see the ft² or linear ft for each service, and schedule with confidence.</p></div>
-          <div className="feature-card"><span className="feature-icon">🗺️</span><h3>Live Route Map</h3><p>See all your stops pinned on an interactive map. Build efficient routes, drag to reorder, and give your drivers a clear path every single day.</p></div>
+          <div className="feature-card"><span className="feature-icon">📋</span><h3>Smart Scheduling</h3><p>PoolBossPro is smart enough to know exactly how much work is waiting. For every service type on your waiting list, it automatically totals the pools and visits so you know precisely how many stops you can fit in a day before you ever make a single call. No more guessing, no more overbooking — just look at your waiting list, see the count for each service, and schedule with confidence.</p></div>
+          <div className="feature-card"><span className="feature-icon">🗺️</span><h3>Live Route Map</h3><p>See all your pool stops pinned on an interactive map. Build efficient routes, drag to reorder, and give your drivers a clear path every single day.</p></div>
           <div className="feature-card"><span className="feature-icon">💰</span><h3>Estimates &amp; Invoices</h3><p>Create professional estimates in seconds, email them to clients, and convert accepted estimates directly to invoices. Track every dollar owed.</p></div>
           <div className="feature-card"><span className="feature-icon">💳</span><h3>Stripe Payments</h3><p>Accept credit cards directly through the platform. Store cards on file, charge after service, and track payment history all in one place.</p></div>
           <div className="feature-card"><span className="feature-icon">💬</span><h3>Two-Way SMS</h3><p>Send and receive text messages from customers right inside the app. Full conversation history organized by contact — no more switching to your phone.</p></div>
           <div className="feature-card"><span className="feature-icon">🔔</span><h3>Automated Alerts</h3><p>Auto-text and email customers when a service is scheduled, completed, or rescheduled. Set it once and let PoolBossPro handle the communication.</p></div>
           <div className="feature-card"><span className="feature-icon">👥</span><h3>Client &amp; Lead Management</h3><p>Manage existing clients and active leads side by side. Track estimates, service history, properties, and notes all tied to each contact.</p></div>
-          <div className="feature-card"><span className="feature-icon">🏠</span><h3>Property Profiles</h3><p>Every service address gets its own profile with coordinates, notes, service history, and the ability to map it instantly.</p></div>
-          <div className="feature-card"><span className="feature-icon">🧪</span><h3>Chemical Tracking</h3><p>Log every chemical application with mix used, area treated, gallons applied, weather, and technician. Generate compliance reports in one click.</p></div>
+          <div className="feature-card"><span className="feature-icon">🏠</span><h3>Pool Profiles</h3><p>Every pool gets its own profile with coordinates, water volume, equipment notes, service history, and the ability to map it instantly.</p></div>
+          <div className="feature-card"><span className="feature-icon">🧪</span><h3>Water Chemistry Tracking</h3><p>Log every visit with chlorine, pH, alkalinity, salt and stabilizer readings, chemicals added, and technician. Generate a full service report for any pool in one click.</p></div>
           <div className="feature-card"><span className="feature-icon">📦</span><h3>Package Plans</h3><p>Create recurring service packages, assign clients, and manage renewals. PoolBossPro reminds you when package renewals are due.</p></div>
           <div className="feature-card"><span className="feature-icon">🚛</span><h3>Team &amp; Truck Management</h3><p>Manage employees, assign trucks, track hours, and control who sees what with role-based access for office staff, technicians, and drivers.</p></div>
           <div className="feature-card"><span className="feature-icon">📊</span><h3>Dashboard &amp; Reports</h3><p>Custom stat cards show today&apos;s revenue, services completed, properties served, money owed, and more — all at a glance the moment you log in.</p></div>
@@ -335,8 +335,8 @@ export default function Home() {
           <h2 className="section-title">We Got Tired of Getting Ripped Off.<br />So We Fixed It.</h2>
           <p className="section-sub">Over the past 20 years we have tried just about every field service software out there — and for 10+ years we were paying $500–$700 a month. Every feature was an add-on. Every user cost more. Every upgrade was another invoice.</p>
           <div style={{background:'#fff', border:'1.5px solid var(--border)', borderRadius:'14px', padding:'36px 40px', maxWidth:'800px', margin:'0 auto 56px', textAlign:'left', borderLeft:'5px solid var(--orange)'}}>
-            <p style={{fontSize:'17px', color:'var(--text)', lineHeight:'1.8', marginBottom:'16px'}}>We were paying <strong>$500 to $700 a month</strong> for software that nickel-and-dimed us at every turn. Want texting? That&apos;s an add-on. Want more users? Pay per user. Want the reporting module? Upgrade your plan. It never ended — and none of those people had ever run a spray route in their life.</p>
-            <p style={{fontSize:'17px', color:'var(--text)', lineHeight:'1.8', marginBottom:'16px'}}>That&apos;s exactly why we built PoolBossPro with one flat price that includes everything. <strong>$129 a month.</strong> No add-ons. No user fees. No locked features. We include it all because that&apos;s how it should have been from day one.</p>
+            <p style={{fontSize:'17px', color:'var(--text)', lineHeight:'1.8', marginBottom:'16px'}}>We were paying <strong>$500 to $700 a month</strong> for software that nickel-and-dimed us at every turn. Want texting? That&apos;s an add-on. Want more users? Pay per user. Want the reporting module? Upgrade your plan. It never ended — and none of those people had ever run a pool route in their life.</p>
+            <p style={{fontSize:'17px', color:'var(--text)', lineHeight:'1.8', marginBottom:'16px'}}>That&apos;s exactly why we built PoolBossPro with one flat price that includes everything. <strong>$99 a month.</strong> No add-ons. No user fees. No locked features. We include it all because that&apos;s how it should have been from day one.</p>
             <p style={{fontSize:'17px', color:'var(--text)', lineHeight:'1.8'}}>The only reason we charge a small fee for outbound text messages is simple — they cost us money to send. We&apos;re not marking them up to make a profit off you. 500 outbound messages are included every month, and if you go over, it&apos;s just $15 per additional 500. That&apos;s it. No gotchas. No surprises. We&apos;re operators just like you, and we built the pricing we always wished existed.</p>
           </div>
         </div>
@@ -344,7 +344,7 @@ export default function Home() {
           <div className="price-card featured" style={{width:'100%'}}>
             <div className="featured-badge">Everything Included</div>
             <div className="price-tier">One Plan. No Surprises.</div>
-            <div className="price-amount"><sup>$</sup>129</div>
+            <div className="price-amount"><sup>$</sup>99</div>
             <div className="price-period">per month</div>
             <div className="price-desc">Every feature. Unlimited clients, properties, employees, and users. No tiers, no locked features, no per-seat fees.</div>
             <ul className="price-features">
@@ -354,7 +354,7 @@ export default function Home() {
               <li>Smart Maps &amp; Property Mapping</li>
               <li>Estimates, Invoices &amp; Stripe Payments</li>
               <li>Two-Way SMS &amp; Automated Alerts</li>
-              <li>Chemical Tracking &amp; Compliance Reports</li>
+              <li>Water Chemistry Tracking &amp; Service Reports</li>
               <li>Package Plans &amp; Renewals</li>
               <li>Mobile App for Technicians</li>
               <li>500 Outbound SMS/month included</li>
@@ -372,73 +372,73 @@ export default function Home() {
           <div className="highlight-text">
             <span className="section-label">Scheduling</span>
             <h2>From Waiting List to Dispatched in Seconds</h2>
-            <p>PoolBossPro gives you a waiting list of everything not yet scheduled, a full dispatch board for scheduled jobs, and a live map so you can build tight, efficient routes every morning.</p>
+            <p>PoolBossPro gives you a waiting list of everything not yet scheduled, a full dispatch board for scheduled visits, and a live map so you can build tight, efficient routes every morning.</p>
             <ul className="check-list">
-              <li>Waiting list with sq ft totals and service counts per type</li>
+              <li>Waiting list with pool counts and service counts per type</li>
               <li>One-click scheduling with date picker and tech assignment</li>
               <li>Drag-and-drop route ordering</li>
               <li>Interactive map showing all stops with stop detail panel</li>
               <li>Filter by employee, date range, or service status</li>
-              <li>Summary bar: total stops, revenue, sq ft, jobs completed</li>
+              <li>Summary bar: total stops, revenue, pools, visits completed</li>
               <li>Print dispatch sheets for drivers in the field</li>
-              <li>Mark jobs complete, skipped, or rescheduled with one click</li>
+              <li>Mark visits complete, skipped, or rescheduled with one click</li>
             </ul>
           </div>
           <div className="highlight-visual">
             <div style={{color:'rgba(255,255,255,.5)', fontSize:'11px', textTransform:'uppercase', letterSpacing:'1px', marginBottom:'14px'}}>Today&apos;s Route — 12 Stops</div>
             <div className="mock-item">
               <div className="mock-dot green"></div>
-              <div><div className="mock-label">123 Oak St — Smith, J.</div><div className="mock-sub">Lawn Care 4 · 8,200 ft²</div></div>
+              <div><div className="mock-label">123 Oak St — Smith, J.</div><div className="mock-sub">Weekly Cleaning · 18,000 gal</div></div>
               <div className="mock-badge green-badge">Done</div>
             </div>
             <div className="mock-item">
               <div className="mock-dot green"></div>
-              <div><div className="mock-label">456 Elm Ave — Torres, M.</div><div className="mock-sub">Lawn Insect 3 · 12,000 ft²</div></div>
+              <div><div className="mock-label">456 Elm Ave — Torres, M.</div><div className="mock-sub">Filter Clean · 25,000 gal</div></div>
               <div className="mock-badge green-badge">Done</div>
             </div>
             <div className="mock-item" style={{borderColor:'rgba(13,148,136,.5)'}}>
               <div className="mock-dot orange"></div>
-              <div><div className="mock-label">789 Pine Rd — Johnson, K.</div><div className="mock-sub">Mosquito 3 · 5,000 ft²</div></div>
+              <div><div className="mock-label">789 Pine Rd — Johnson, K.</div><div className="mock-sub">Chemical-Only · 12,000 gal</div></div>
               <div className="mock-badge">In Progress</div>
             </div>
             <div className="mock-item">
               <div className="mock-dot blue"></div>
-              <div><div className="mock-label">321 Maple Dr — Garcia, L.</div><div className="mock-sub">Flower Beds 4 · 3,400 ft²</div></div>
+              <div><div className="mock-label">321 Maple Dr — Garcia, L.</div><div className="mock-sub">Green-to-Clean · 14,000 gal</div></div>
               <div className="mock-badge blue-badge">Up Next</div>
             </div>
             <div style={{marginTop:'16px', background:'rgba(255,255,255,.07)', borderRadius:'6px', padding:'12px 14px'}}>
               <div style={{display:'flex', justifyContent:'space-between', alignItems:'center', marginBottom:'10px', paddingBottom:'8px', borderBottom:'1px solid rgba(255,255,255,.08)'}}>
-                <span style={{color:'rgba(255,255,255,.45)', fontSize:'10px', textTransform:'uppercase', letterSpacing:'.8px'}}>4 Properties · 8 Services</span>
+                <span style={{color:'rgba(255,255,255,.45)', fontSize:'10px', textTransform:'uppercase', letterSpacing:'.8px'}}>4 Pools · 8 Services</span>
                 <span style={{color:'#fff', fontSize:'14px', fontWeight:700}}>$427.00</span>
               </div>
               <div style={{display:'flex', flexDirection:'column', gap:'7px'}}>
                 <div style={{display:'flex', alignItems:'center', justifyContent:'space-between'}}>
                   <div style={{display:'flex', alignItems:'center', gap:'7px'}}>
                     <span style={{background:'var(--orange)', color:'#fff', fontSize:'10px', fontWeight:800, padding:'1px 7px', borderRadius:'10px', lineHeight:'16px'}}>4</span>
-                    <span style={{color:'rgba(255,255,255,.8)', fontSize:'12px'}}>Lawn Care 4</span>
+                    <span style={{color:'rgba(255,255,255,.8)', fontSize:'12px'}}>Weekly Cleaning</span>
                   </div>
-                  <span style={{color:'var(--orange)', fontSize:'12px', fontWeight:700}}>23,168 ft²</span>
+                  <span style={{color:'var(--orange)', fontSize:'12px', fontWeight:700}}>72,000 gal</span>
                 </div>
                 <div style={{display:'flex', alignItems:'center', justifyContent:'space-between'}}>
                   <div style={{display:'flex', alignItems:'center', gap:'7px'}}>
                     <span style={{background:'var(--orange)', color:'#fff', fontSize:'10px', fontWeight:800, padding:'1px 7px', borderRadius:'10px', lineHeight:'16px'}}>2</span>
-                    <span style={{color:'rgba(255,255,255,.8)', fontSize:'12px'}}>Lawn Insect 3</span>
+                    <span style={{color:'rgba(255,255,255,.8)', fontSize:'12px'}}>Filter Clean</span>
                   </div>
-                  <span style={{color:'var(--orange)', fontSize:'12px', fontWeight:700}}>13,289 ft²</span>
+                  <span style={{color:'var(--orange)', fontSize:'12px', fontWeight:700}}>50,000 gal</span>
                 </div>
                 <div style={{display:'flex', alignItems:'center', justifyContent:'space-between'}}>
                   <div style={{display:'flex', alignItems:'center', gap:'7px'}}>
                     <span style={{background:'var(--orange)', color:'#fff', fontSize:'10px', fontWeight:800, padding:'1px 7px', borderRadius:'10px', lineHeight:'16px'}}>1</span>
-                    <span style={{color:'rgba(255,255,255,.8)', fontSize:'12px'}}>Flower Beds 4</span>
+                    <span style={{color:'rgba(255,255,255,.8)', fontSize:'12px'}}>Green-to-Clean</span>
                   </div>
-                  <span style={{color:'var(--orange)', fontSize:'12px', fontWeight:700}}>5,043 ft²</span>
+                  <span style={{color:'var(--orange)', fontSize:'12px', fontWeight:700}}>14,000 gal</span>
                 </div>
                 <div style={{display:'flex', alignItems:'center', justifyContent:'space-between'}}>
                   <div style={{display:'flex', alignItems:'center', gap:'7px'}}>
                     <span style={{background:'var(--orange)', color:'#fff', fontSize:'10px', fontWeight:800, padding:'1px 7px', borderRadius:'10px', lineHeight:'16px'}}>1</span>
-                    <span style={{color:'rgba(255,255,255,.8)', fontSize:'12px'}}>Mosquito 3</span>
+                    <span style={{color:'rgba(255,255,255,.8)', fontSize:'12px'}}>Chemical-Only</span>
                   </div>
-                  <span style={{color:'var(--orange)', fontSize:'12px', fontWeight:700}}>3,200 ft²</span>
+                  <span style={{color:'var(--orange)', fontSize:'12px', fontWeight:700}}>12,000 gal</span>
                 </div>
               </div>
             </div>
@@ -470,13 +470,13 @@ export default function Home() {
             <div style={{background:'rgba(255,255,255,.07)', borderRadius:'8px', padding:'14px 16px', marginBottom:'10px'}}>
               <div style={{color:'rgba(255,255,255,.6)', fontSize:'12px', marginBottom:'6px'}}>Line Items</div>
               <div style={{display:'flex', justifyContent:'space-between', color:'rgba(255,255,255,.85)', fontSize:'13px', padding:'4px 0', borderBottom:'1px solid rgba(255,255,255,.08)'}}>
-                <span>Lawn Care 4 (8,200 sq ft)</span><span>$95.00</span>
+                <span>Weekly Cleaning (18,000 gal)</span><span>$95.00</span>
               </div>
               <div style={{display:'flex', justifyContent:'space-between', color:'rgba(255,255,255,.85)', fontSize:'13px', padding:'4px 0', borderBottom:'1px solid rgba(255,255,255,.08)'}}>
-                <span>Lawn Insect 3 (8,200 sq ft)</span><span>$75.00</span>
+                <span>Filter Clean (18,000 gal)</span><span>$75.00</span>
               </div>
               <div style={{display:'flex', justifyContent:'space-between', color:'rgba(255,255,255,.85)', fontSize:'13px', padding:'4px 0', borderBottom:'1px solid rgba(255,255,255,.08)'}}>
-                <span>Mosquito Treatment</span><span>$55.00</span>
+                <span>Chemical Balancing</span><span>$55.00</span>
               </div>
               <div style={{display:'flex', justifyContent:'space-between', color:'#fff', fontSize:'14px', fontWeight:700, paddingTop:'8px', marginTop:'4px'}}>
                 <span>Total</span><span style={{color:'var(--orange)'}}>$225.00</span>
@@ -552,29 +552,29 @@ export default function Home() {
       <section style={{background:'var(--light-bg)'}}>
         <div className="highlight-row reverse">
           <div className="highlight-text">
-            <span className="section-label">Compliance</span>
-            <h2>Chemical Tracking Built Right In</h2>
-            <p>Every application logged. Every mix recorded. Every technician tracked. PoolBossPro gives you a complete chemical application history you can filter, print, and take to any inspection.</p>
+            <span className="section-label">Water Chemistry</span>
+            <h2>Water Chemistry Tracking Built Right In</h2>
+            <p>Every visit logged. Every reading recorded. Every technician tracked. PoolBossPro gives you a complete water-chemistry history for every pool that you can filter, print, and share with any customer.</p>
             <ul className="check-list">
-              <li>Log product mixes, area treated, and gallons applied per job</li>
-              <li>Track weather conditions at time of application</li>
-              <li>Filter reports by client, mix, technician, or date range</li>
-              <li>Summary cards: total applications, properties, sq ft, gallons</li>
-              <li>Full product catalog with mix recipes</li>
-              <li>Print-ready chemical reports for compliance</li>
-              <li>Area treated types (lawn, shrubs, beds, etc.) tracked separately</li>
+              <li>Log chlorine, pH, alkalinity, salt and stabilizer readings per visit</li>
+              <li>Record exactly which chemicals and how much were added</li>
+              <li>Filter reports by client, pool, technician, or date range</li>
+              <li>Summary cards: total visits, pools, gallons of water serviced, chemicals used</li>
+              <li>Full chemical catalog with dosing presets</li>
+              <li>Print-ready service reports for every customer</li>
+              <li>Service types (weekly cleaning, chemical-only, filter clean, etc.) tracked separately</li>
             </ul>
           </div>
           <div className="highlight-visual">
-            <div style={{color:'rgba(255,255,255,.5)', fontSize:'11px', textTransform:'uppercase', letterSpacing:'1px', marginBottom:'14px'}}>Chemical Report — This Month</div>
+            <div style={{color:'rgba(255,255,255,.5)', fontSize:'11px', textTransform:'uppercase', letterSpacing:'1px', marginBottom:'14px'}}>Water Chemistry Report — This Month</div>
             <div style={{display:'grid', gridTemplateColumns:'1fr 1fr', gap:'8px', marginBottom:'12px'}}>
-              <div style={{background:'rgba(255,255,255,.07)', borderRadius:'8px', padding:'12px', textAlign:'center'}}><div style={{color:'#fff', fontSize:'20px', fontWeight:700}}>142</div><div style={{color:'rgba(255,255,255,.45)', fontSize:'11px'}}>Applications</div></div>
-              <div style={{background:'rgba(255,255,255,.07)', borderRadius:'8px', padding:'12px', textAlign:'center'}}><div style={{color:'#fff', fontSize:'20px', fontWeight:700}}>87</div><div style={{color:'rgba(255,255,255,.45)', fontSize:'11px'}}>Properties</div></div>
-              <div style={{background:'rgba(255,255,255,.07)', borderRadius:'8px', padding:'12px', textAlign:'center'}}><div style={{color:'var(--orange)', fontSize:'20px', fontWeight:700}}>751K</div><div style={{color:'rgba(255,255,255,.45)', fontSize:'11px'}}>Sq Ft Treated</div></div>
-              <div style={{background:'rgba(255,255,255,.07)', borderRadius:'8px', padding:'12px', textAlign:'center'}}><div style={{color:'var(--orange)', fontSize:'20px', fontWeight:700}}>284</div><div style={{color:'rgba(255,255,255,.45)', fontSize:'11px'}}>Gallons Applied</div></div>
+              <div style={{background:'rgba(255,255,255,.07)', borderRadius:'8px', padding:'12px', textAlign:'center'}}><div style={{color:'#fff', fontSize:'20px', fontWeight:700}}>142</div><div style={{color:'rgba(255,255,255,.45)', fontSize:'11px'}}>Visits</div></div>
+              <div style={{background:'rgba(255,255,255,.07)', borderRadius:'8px', padding:'12px', textAlign:'center'}}><div style={{color:'#fff', fontSize:'20px', fontWeight:700}}>87</div><div style={{color:'rgba(255,255,255,.45)', fontSize:'11px'}}>Pools</div></div>
+              <div style={{background:'rgba(255,255,255,.07)', borderRadius:'8px', padding:'12px', textAlign:'center'}}><div style={{color:'var(--orange)', fontSize:'20px', fontWeight:700}}>1.7M</div><div style={{color:'rgba(255,255,255,.45)', fontSize:'11px'}}>Gallons Serviced</div></div>
+              <div style={{background:'rgba(255,255,255,.07)', borderRadius:'8px', padding:'12px', textAlign:'center'}}><div style={{color:'var(--orange)', fontSize:'20px', fontWeight:700}}>284</div><div style={{color:'rgba(255,255,255,.45)', fontSize:'11px'}}>lbs Chemicals Used</div></div>
             </div>
-            <div className="mock-item"><div className="mock-dot green"></div><div><div className="mock-label">Lawn Care Mix A</div><div className="mock-sub">Applied by J. Smith · 6/14/2026</div></div><div className="mock-badge green-badge">12 gal</div></div>
-            <div className="mock-item"><div className="mock-dot orange"></div><div><div className="mock-label">Insect Control Mix</div><div className="mock-sub">Applied by M. Torres · 6/14/2026</div></div><div className="mock-badge">8.5 gal</div></div>
+            <div className="mock-item"><div className="mock-dot green"></div><div><div className="mock-label">Chlorine &amp; pH Balance</div><div className="mock-sub">Logged by J. Smith · 6/14/2026</div></div><div className="mock-badge green-badge">FC 3.0</div></div>
+            <div className="mock-item"><div className="mock-dot orange"></div><div><div className="mock-label">Shock &amp; Stabilizer</div><div className="mock-sub">Logged by M. Torres · 6/14/2026</div></div><div className="mock-badge">2 lbs</div></div>
           </div>
         </div>
       </section>
@@ -586,28 +586,28 @@ export default function Home() {
           <h2 className="section-title">Built by an Operator. Owned by an Operator.</h2>
           <p className="section-sub">We&apos;re not a big corporation. We&apos;re not a venture-backed tech startup. We&apos;re a privately owned company built by someone who has been in the field since 2006.</p>
           <div style={{background:'#fff', border:'1.5px solid var(--border)', borderRadius:'14px', padding:'36px 40px', maxWidth:'800px', margin:'0 auto 56px', textAlign:'left', borderLeft:'5px solid var(--orange)'}}>
-            <p style={{fontSize:'17px', color:'var(--text)', lineHeight:'1.8', marginBottom:'16px'}}>We own and operate a spray business. We&apos;ve been in this industry since <strong>2006</strong> — which means when we built PoolBossPro, we didn&apos;t have to guess what operators need. We already knew. We lived it every day.</p>
-            <p style={{fontSize:'17px', color:'var(--text)', lineHeight:'1.8', marginBottom:'16px'}}>We built this software because everything else out there was built by people who have never driven a spray truck, never managed a waiting list of hundreds or thousands of properties, never had to chase down a payment while also trying to dispatch a full crew. They build features they <em>think</em> you need. We build features we <em>know</em> you need.</p>
-            <p style={{fontSize:'17px', color:'var(--text)', lineHeight:'1.8'}}>PoolBossPro is <strong>privately owned</strong> — no corporate board, no outside investors, no decisions made by people who have never touched a sprayer. When you call or message us, you&apos;re talking to the owner. That&apos;s the way we like it, and that&apos;s never going to change.</p>
+            <p style={{fontSize:'17px', color:'var(--text)', lineHeight:'1.8', marginBottom:'16px'}}>We own and operate a pool service business. We&apos;ve been in this industry since <strong>2006</strong> — which means when we built PoolBossPro, we didn&apos;t have to guess what operators need. We already knew. We lived it every day.</p>
+            <p style={{fontSize:'17px', color:'var(--text)', lineHeight:'1.8', marginBottom:'16px'}}>We built this software because everything else out there was built by people who have never run a pool route, never managed a waiting list of hundreds or thousands of pools, never had to chase down a payment while also trying to dispatch a full crew. They build features they <em>think</em> you need. We build features we <em>know</em> you need.</p>
+            <p style={{fontSize:'17px', color:'var(--text)', lineHeight:'1.8'}}>PoolBossPro is <strong>privately owned</strong> — no corporate board, no outside investors, no decisions made by people who have never balanced a pool. When you call or message us, you&apos;re talking to the owner. That&apos;s the way we like it, and that&apos;s never going to change.</p>
           </div>
         </div>
         <div className="testimonial-grid" style={{maxWidth:'1100px', margin:'0 auto'}}>
           <div className="testimonial-card">
             <div className="testimonial-stars">★★★★★</div>
             <p className="testimonial-body">&ldquo;Before PoolBossPro I was using 3 different apps and still falling through the cracks on follow-ups. Now everything is in one place and my close rate on estimates is way up because the follow-up texts go out automatically.&rdquo;</p>
-            <div className="testimonial-author">Lawn Care Owner</div>
+            <div className="testimonial-author">Pool Service Owner</div>
             <div className="testimonial-role">Nashville, TN</div>
           </div>
           <div className="testimonial-card">
             <div className="testimonial-stars">★★★★★</div>
-            <p className="testimonial-body">&ldquo;The chemical tracking alone is worth it. I used to keep a spreadsheet and it was always behind. Now every application is logged right when the job is done and I can pull a report for any inspector in 30 seconds.&rdquo;</p>
-            <div className="testimonial-author">Pest Control Operator</div>
+            <p className="testimonial-body">&ldquo;The water-chemistry tracking alone is worth it. I used to keep a spreadsheet and it was always behind. Now every reading is logged right when the visit is done and I can pull a full history for any customer in 30 seconds.&rdquo;</p>
+            <div className="testimonial-author">Pool Maintenance Operator</div>
             <div className="testimonial-role">Phoenix, AZ</div>
           </div>
           <div className="testimonial-card">
             <div className="testimonial-stars">★★★★★</div>
-            <p className="testimonial-body">&ldquo;The route map changed how I schedule. I can look at where all my jobs are, drag them into order, and cut drive time in half. My guys are doing more stops per day with less fuel.&rdquo;</p>
-            <div className="testimonial-author">Spray Tech Business Owner</div>
+            <p className="testimonial-body">&ldquo;The route map changed how I schedule. I can look at where all my pools are, drag them into order, and cut drive time in half. My guys are doing more stops per day with less fuel.&rdquo;</p>
+            <div className="testimonial-author">Pool Route Business Owner</div>
             <div className="testimonial-role">Charlotte, NC</div>
           </div>
         </div>
@@ -682,7 +682,7 @@ export default function Home() {
               <div style={{flex:1}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>First Name</label><input id={`sbp${n}-first`} type="text" placeholder="John" style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', color:'#333'}} /></div>
               <div style={{flex:1}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>Last Name</label><input id={`sbp${n}-last`} type="text" placeholder="Smith" style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', color:'#333'}} /></div>
             </div>
-            <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>Company Name</label><input id={`sbp${n}-company`} type="text" placeholder="Smith Lawn &amp; Spray Co." style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', color:'#333'}} /></div>
+            <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>Company Name</label><input id={`sbp${n}-company`} type="text" placeholder="Smith Pool Service Co." style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', color:'#333'}} /></div>
             <div style={{marginBottom:'20px'}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>Email Address</label><input id={`sbp${n}-email`} type="email" placeholder="you@yourcompany.com" style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', color:'#333'}} /></div>
             <button onClick={() => sbpStep2(n)} style={{width:'100%', background:'#0d9488', color:'#fff', border:'none', borderRadius:'6px', padding:'13px', fontSize:'15px', fontWeight:700, cursor:'pointer', fontFamily:'inherit'}}>Next: Create Password →</button>
           </div>
@@ -690,7 +690,7 @@ export default function Home() {
             <div id={`sbp${n}-err2`} style={{background:'#fff0f0', border:'1px solid #f5c6c6', color:'#c0392b', borderRadius:'6px', padding:'10px 12px', fontSize:'13px', marginBottom:'14px', display:'none'}}></div>
             <div style={{background:'#f0fdf4', border:'1px solid #bbf7d0', borderRadius:'6px', padding:'10px 14px', marginBottom:'16px'}}>
               <div style={{fontSize:'12px', color:'#16a34a', fontWeight:700}}>14-Day Free Trial — No Credit Card Required</div>
-              <div style={{fontSize:'12px', color:'#555', marginTop:'2px'}}>Full access to every feature. $129/month after trial.</div>
+              <div style={{fontSize:'12px', color:'#555', marginTop:'2px'}}>Full access to every feature. $99/month after trial.</div>
             </div>
             <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>Login Email</label><input id={`sbp${n}-login-email`} type="email" readOnly style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', background:'#f8f8f8', color:'#333'}} /></div>
             <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>Password</label><input id={`sbp${n}-password`} type="password" placeholder="At least 8 characters" style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', color:'#333'}} /></div>
