@@ -2,29 +2,21 @@
 import { useState } from 'react';
 
 const solutions = [
-  { label: 'Lawn Care Software',           href: '/lawn-care-software' },
-  { label: 'Lawn Care Scheduling',         href: '/lawn-care-scheduling-software' },
-  { label: 'Mosquito Control Software',    href: '/mosquito-control-software' },
-  { label: 'Mosquito Spray Software',      href: '/mosquito-spray-software' },
-  { label: 'Pest Control Software',        href: '/pest-control-software' },
-  { label: 'Pest Control Scheduling',      href: '/pest-control-scheduling-software' },
-  { label: 'Spray Business Software',      href: '/spray-business-software' },
-  { label: 'Weed Control Software',        href: '/weed-control-software' },
-  { label: 'Fertilizer Software',          href: '/fertilizer-software' },
+  { label: 'Pool Service Software', href: '/pool-service-software' },
+  { label: 'Pool Scheduling Software', href: '/pool-scheduling-software' },
+  { label: 'Pool Cleaning Software', href: '/pool-cleaning-software' },
+  { label: 'Pool Chemical Tracking Software', href: '/pool-chemical-software' },
+  { label: 'Pool Business Software', href: '/pool-business-software' },
+  { label: 'Pool Maintenance Software', href: '/pool-maintenance-software' },
+  { label: 'Pool Route & Dispatch Software', href: '/pool-route-software' },
+  { label: 'Pool Invoicing & Billing', href: '/pool-invoicing-software' },
 ];
 
 const comparisons = [
-  { label: 'vs. Jobber',             href: '/vs-jobber' },
-  { label: 'vs. ServiceTitan',       href: '/vs-servicetitan' },
-  { label: 'vs. GorillaDesk',        href: '/vs-gorilladesk' },
-  { label: 'vs. Housecall Pro',      href: '/vs-housecallpro' },
-  { label: 'vs. FieldRoutes',        href: '/vs-fieldroutes' },
-  { label: 'vs. Service AutoPilot',  href: '/vs-serviceautopilot' },
-  { label: 'vs. Spraye',             href: '/vs-spraye' },
-  { label: 'vs. RealGreen',          href: '/vs-realgreen' },
-  { label: 'vs. LawnPro',            href: '/vs-lawnpro' },
-  { label: 'vs. CLIP',               href: '/vs-clip' },
-  { label: 'vs. Aspire',             href: '/vs-aspire' },
+  { label: 'vs. Jobber', href: '/vs-jobber' },
+  { label: 'vs. ServiceTitan', href: '/vs-servicetitan' },
+  { label: 'vs. Service AutoPilot', href: '/vs-serviceautopilot' },
+  { label: 'vs. Housecall Pro', href: '/vs-housecallpro' },
 ];
 
 export default function Navbar({ onTrialClick }: { onTrialClick: (el: HTMLElement) => void }) {
@@ -43,7 +35,7 @@ export default function Navbar({ onTrialClick }: { onTrialClick: (el: HTMLElemen
         <div className="navbar-inner">
           <div className="navbar-brand">
             <a href="/" style={{textDecoration:'none', display:'flex', alignItems:'center', gap:'8px'}}>
-              <span className="navbar-icon">🌿</span>
+              <span className="navbar-icon">💧</span>
               <span className="navbar-name">PoolBossPro</span>
             </a>
           </div>
