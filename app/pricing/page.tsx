@@ -156,7 +156,7 @@ const faqs = [
   { q: "What's the SMS pricing?", a: '500 outbound SMS messages per month are included in your $99. If you go over, you can add blocks of 500 for $15 each. Most businesses with under 300 active pools never hit the 500 limit.' },
   { q: 'Are there any contracts or annual commitments?', a: 'None. Month to month, always. Cancel anytime from your account settings.' },
   { q: 'Does this work for both pool service and pool maintenance?', a: 'Yes. PoolBossPro was built for pool businesses — residential pool service, commercial pool maintenance, water chemistry balancing, or any combination. The service types, chemical tracking, and waiting list work the same way regardless of the pools you service.' },
-  { q: 'What if I have questions or need help getting set up?', a: "We're a small team and we respond fast. Reach us anytime at support@poolbosspro.com. We've run routes ourselves — we know what setup actually looks like and we're here to help." },
+  { q: 'What if I have questions or need help getting set up?', a: "We're a small team and we respond fast. Reach us anytime at Support@bossprohq.com. We've run routes ourselves — we know what setup actually looks like and we're here to help." },
 ];
 
 export default function Pricing() {
@@ -271,7 +271,7 @@ export default function Pricing() {
               <div style={{fontSize:'17px',fontWeight:700,color:'var(--text)',marginBottom:'10px'}}>{f.q}</div>
               <div style={{fontSize:'15px',color:'var(--muted)',lineHeight:1.7}}>
                 {f.q.includes('help getting set up') ? (
-                  <>We&apos;re a small team and we respond fast. Reach us anytime at <a href="mailto:support@poolbosspro.com" style={{color:'var(--orange)'}}>support@poolbosspro.com</a>. We&apos;ve run routes ourselves — we know what setup actually looks like and we&apos;re here to help.</>
+                  <>We&apos;re a small team and we respond fast. Reach us anytime at <a href="mailto:Support@bossprohq.com" style={{color:'var(--orange)'}}>Support@bossprohq.com</a>. We&apos;ve run routes ourselves — we know what setup actually looks like and we&apos;re here to help.</>
                 ) : f.a}
               </div>
             </div>
