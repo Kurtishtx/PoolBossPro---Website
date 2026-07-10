@@ -210,15 +210,8 @@ export default function Home() {
 
       <Navbar onTrialClick={(el) => openSignupModal(1, el)} />
 
-      {/* ═══ MOCKUP IMAGE ═══ */}
-      <div style={{background:'linear-gradient(135deg,#0f1720 0%,#1f2937 60%,#263445 100%)', padding:'80px 40px 0', textAlign:'center'}}>
-        <div style={{maxWidth:'1000px', margin:'0 auto'}}>
-          <img src="/dashboard-mockup.webp" width={1200} height={800} fetchPriority="high" decoding="async" alt="PoolBossPro pool service software showing the circle-map route builder, waiting list, and mobile app for pool cleaning and maintenance technicians" style={{width:'100%', height:'auto', borderRadius:'16px', boxShadow:'0 32px 80px rgba(0,0,0,.5)', display:'block'}} />
-        </div>
-      </div>
-
       {/* ═══ HERO ═══ */}
-      <div className="hero" style={{paddingTop:'60px'}}>
+      <div className="hero" style={{paddingTop:'110px'}}>
         <div className="hero-badge">Built for Pool Service &amp; Pool Maintenance</div>
         <h1>Run Your Entire Operation<br /><span>From One Dashboard</span></h1>
         <p>PoolBossPro is the all-in-one field management platform built specifically for pool service and pool maintenance businesses. Schedule visits, send estimates, collect payments, and keep your team coordinated — all in one place.</p>
