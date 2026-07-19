@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Run every pool route, log every reading, and bill every stop from one place.</h3>
           <p>PoolBossPro gives pool service businesses recurring route scheduling, crew dispatch, water chemistry logging, and card-on-file billing built for the way you actually work.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

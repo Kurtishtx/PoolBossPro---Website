@@ -39,6 +39,7 @@ export default function Page() {
           <h3>See your whole pool business on one screen</h3>
           <p>PoolBossPro turns your routes, water chemistry, invoices, and customer texts into dashboards and reports that show exactly how your pool service business is performing.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

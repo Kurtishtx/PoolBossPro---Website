@@ -37,6 +37,7 @@ export default function Page() {
           <h3>$4,200 in pools due today. One tech or two? Decide before 7 AM with real numbers.</h3>
           <p>PoolBossPro shows total Job Board revenue, selected-route totals, and per-service breakdowns before dispatch &mdash; so every production decision is made from data, not a stop count.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

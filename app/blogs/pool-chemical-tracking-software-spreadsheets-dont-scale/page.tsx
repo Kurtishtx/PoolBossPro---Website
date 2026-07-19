@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Log Every Reading Where the Work Happens</h3>
           <p>PoolBossPro keeps chlorine, pH, alkalinity, cyanuric, salt, and phosphate readings tied to each pool&apos;s profile, route, invoice, and customer &mdash; logged on site, not re-typed at night.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: pool chemical tracking software, water chemistry logging, pool service software, recurring pool route scheduling, pool maintenance invoicing, pool profile management</div>
       </article>

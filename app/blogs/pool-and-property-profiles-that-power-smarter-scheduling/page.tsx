@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Stop guessing at every stop. Let the profile run the route.</h3>
           <p>PoolBossPro stores pool type, gallons, equipment, and access on every profile, then powers recurring scheduling, routing, chemistry logging, and invoicing from it.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Get paid the day you service the pool with PoolBossPro</h3>
           <p>PoolBossPro invoices every recurring stop the moment it&apos;s completed and collects by card automatically, so you stop chasing checks and keep your cash flow predictable.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: pool cleaning software, pool service invoicing software, faster pool service payments, recurring pool cleaning billing, card-on-file pool payments, pool route payment collection</div>
       </article>

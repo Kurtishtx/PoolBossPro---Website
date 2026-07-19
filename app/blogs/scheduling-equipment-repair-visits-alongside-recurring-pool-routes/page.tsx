@@ -39,6 +39,7 @@ export default function Page() {
           <h3>Fit repairs into your routes without the chaos.</h3>
           <p>PoolBossPro schedules equipment repairs right alongside your recurring weekly stops &mdash; off the Job Board, onto the right route day, billed to the card on file.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

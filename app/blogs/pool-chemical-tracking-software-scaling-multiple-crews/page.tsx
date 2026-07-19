@@ -40,6 +40,7 @@ export default function Page() {
           <h3>Run two crews as cleanly as you ran one</h3>
           <p>PoolBossPro keeps your routes, pool profiles, water chemistry logs, and card-on-file billing consistent across every crew so you can scale without losing control of the water or the books.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

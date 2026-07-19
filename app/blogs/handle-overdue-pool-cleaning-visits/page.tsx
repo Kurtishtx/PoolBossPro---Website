@@ -44,6 +44,7 @@ export default function Page() {
           <h3>Catch overdue pool visits before your customers do.</h3>
           <p>PoolBossPro flags overdue stops on your route the day after they slip &mdash; so you can dispatch a crew, log the chemistry, and text the customer before the water ever turns.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

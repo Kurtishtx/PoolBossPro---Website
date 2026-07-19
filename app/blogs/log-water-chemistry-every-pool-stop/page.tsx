@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Put a chemistry form on every tech&apos;s phone &mdash; and a record on every pool.</h3>
           <p>PoolBossPro attaches a per-pool chemistry form to every dispatched stop so chlorine, pH, alkalinity, cyanuric, and salt get logged, texted to the customer, and tied straight to the invoice.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

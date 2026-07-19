@@ -37,6 +37,7 @@ export default function Page() {
           <h3>When a tech calls out, reassign the whole route &mdash; profiles, chemistry, and all &mdash; in a few taps.</h3>
           <p>PoolBossPro keeps every pool&apos;s profile, history, and chemistry form in the system, so covering a sick tech&apos;s route is a reassignment, not a scramble.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

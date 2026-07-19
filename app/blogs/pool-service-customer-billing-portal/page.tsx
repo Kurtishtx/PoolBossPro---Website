@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Let pool customers pay themselves &mdash; faster, on their phone, with no phone tag</h3>
           <p>PoolBossPro gives every customer a self-serve billing portal built from your route, chemistry logs, and invoices, so card payments and card updates happen automatically.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

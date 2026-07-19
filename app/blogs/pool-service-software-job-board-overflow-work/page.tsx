@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Catch every pool job with PoolBossPro</h3>
           <p>PoolBossPro gives pool service businesses a Job Board, route-based dispatch, water chemistry logging, and card-on-file invoicing in one place.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: pool service software, pool service job board, green-to-clean software, pool crew dispatch software, water chemistry logging, pool service invoicing</div>
       </article>

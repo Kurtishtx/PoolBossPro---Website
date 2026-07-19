@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Run tighter pool routes with PoolBossPro</h3>
           <p>PoolBossPro ties your water chemistry logs to map-based dispatch and route density, so every crew services more pools per day with proof on every stop.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: pool chemical tracking software, pool service crew dispatch software, pool route density software, water chemistry logging app, pool route scheduling software, pool service software</div>
       </article>

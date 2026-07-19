@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Photograph every pool visit and prove the work in one tap.</h3>
           <p>PoolBossPro lets your techs snap before-and-after photos, attach them to the pool and the visit alongside the water chemistry log, and send the proof straight to the customer.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

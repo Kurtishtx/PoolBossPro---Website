@@ -38,6 +38,7 @@ export default function Page() {
           <h3>Run your whole pool route from one board</h3>
           <p>PoolBossPro gives you drag-and-drop dispatch, route-based scheduling, water chemistry logging, and card-on-file invoicing in one place.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: pool service job board software, pool route dispatch software, pool cleaning crew scheduling, pool tech assignment software, water chemistry logging software, pool service invoicing software</div>
       </article>

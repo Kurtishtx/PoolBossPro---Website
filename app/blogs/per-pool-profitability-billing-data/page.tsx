@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Stop treating every pool the same. Find the accounts that actually make you money.</h3>
           <p>PoolBossPro joins your invoice totals, pool profiles, chemistry history, and route data so you can rank every account by real profit per stop &mdash; then re-price, re-route, and sell toward your best ones.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

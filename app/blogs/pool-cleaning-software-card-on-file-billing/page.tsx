@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Charge the card the day the pool is serviced. No invoices, no collections, no month-end billing.</h3>
           <p>PoolBossPro stores each customer&apos;s card on file and charges it automatically when the weekly visit is logged complete &mdash; so recurring pool revenue collects itself.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

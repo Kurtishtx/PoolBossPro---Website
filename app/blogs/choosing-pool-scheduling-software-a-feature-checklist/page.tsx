@@ -37,6 +37,7 @@ export default function Page() {
           <h3>One platform that checks every box on this list.</h3>
           <p>PoolBossPro builds recurring route schedules, dispatches crews from the Job Board, logs water chemistry per pool, bills card-on-file, and reports on it all &mdash; built for pool service, not generic field work.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

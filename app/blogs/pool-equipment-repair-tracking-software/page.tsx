@@ -39,6 +39,7 @@ export default function Page() {
           <h3>Stop losing equipment repairs between cleaning stops.</h3>
           <p>PoolBossPro tracks pump, filter, heater, and salt-cell repairs right alongside your weekly maintenance, chemistry logs, and card-on-file billing &mdash; all on one property record.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

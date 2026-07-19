@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Built to Grow With Your Pool Business</h3>
           <p>PoolBossPro handles recurring routes, dispatch, water chemistry logging, and card-on-file billing so you can scale from one tech to five crews without losing control.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: pool service software, pool route scheduling software, pool service dispatch software, water chemistry logging software, pool cleaning business software, pool service invoicing software</div>
       </article>

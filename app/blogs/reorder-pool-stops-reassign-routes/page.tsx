@@ -38,6 +38,7 @@ export default function Page() {
           <h3>Never lose a route to a sick day again</h3>
           <p>PoolBossPro lets you reassign routes, reorder stops, log water chemistry, and bill customers automatically &mdash; all from one dashboard.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: pool route software, pool service dispatch, reassign pool routes, recurring pool scheduling, water chemistry logging, pool service invoicing</div>
       </article>

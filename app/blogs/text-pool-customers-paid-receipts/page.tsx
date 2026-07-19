@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Stop fielding &quot;what was this charge?&quot; texts. Send the receipt before they ask.</h3>
           <p>PoolBossPro charges the card on file when each pool visit is complete and texts your customer an itemized paid receipt the instant the charge clears.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

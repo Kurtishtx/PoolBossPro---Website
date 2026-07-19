@@ -92,6 +92,7 @@ export default function Page() {
           <h3>Run your whole pool season on one system</h3>
           <p>PoolBossPro ramps your recurring routes up in spring, scales them down in fall, and dispatches openings, closings, and chemistry on every stop.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: pool scheduling software, seasonal pool service scheduling, recurring pool routes, pool opening and closing software, pool crew dispatch software, water chemistry logging</div>
       </article>

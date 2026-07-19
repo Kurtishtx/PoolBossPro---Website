@@ -38,6 +38,7 @@ export default function Page() {
           <h3>Turn every pool job into recurring revenue</h3>
           <p>PoolBossPro converts one-off jobs into recurring route stops with automatic scheduling, card-on-file billing, and chemistry logs that keep accounts for years.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: pool scheduling software, recurring pool route scheduling, pool service software, pool service invoicing software, card-on-file pool billing, water chemistry logging software</div>
       </article>

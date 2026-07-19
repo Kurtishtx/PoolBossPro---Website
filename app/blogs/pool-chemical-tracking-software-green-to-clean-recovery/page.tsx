@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Run every green-to-clean from data &mdash; and bill it the day the water clears.</h3>
           <p>PoolBossPro logs chlorine, pH, alkalinity, cyanuric, salt, and phosphate per pool, schedules your recovery rechecks, and ties it all to card-on-file invoicing.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Walk into tax season with every record already in order.</h3>
           <p>PoolBossPro logs every invoice, card-on-file payment, and route all year, so your tax-time reports are a quick export instead of an all-weekend scramble.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

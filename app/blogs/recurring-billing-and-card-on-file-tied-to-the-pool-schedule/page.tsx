@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Charge the card the moment the pool is cleaned &mdash; no invoices, no chasing checks.</h3>
           <p>PoolBossPro ties recurring billing and card-on-file payments straight to your pool route, so every completed cleaning is a paid cleaning.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

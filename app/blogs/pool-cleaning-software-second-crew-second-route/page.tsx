@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Grow from one route to two without dropping a single pool</h3>
           <p>PoolBossPro keeps recurring schedules, water chemistry history, dispatch, and card-on-file billing intact when you split a route and add a crew.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

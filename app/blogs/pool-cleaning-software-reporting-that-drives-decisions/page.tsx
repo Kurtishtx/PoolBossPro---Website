@@ -36,6 +36,7 @@ export default function Page() {
           <h3>See which pools really pay with PoolBossPro</h3>
           <p>PoolBossPro turns your routes, water chemistry logs, and payments into clear profit reports so you know exactly where your pool service business makes money.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: pool service software, pool route profitability reporting, pool cleaning business software, pool service invoicing software, pool route scheduling software, water chemistry tracking software</div>
       </article>

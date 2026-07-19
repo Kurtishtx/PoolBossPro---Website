@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Hand your first pool tech a route that runs itself</h3>
           <p>PoolBossPro keeps your routes, pool profiles, water chemistry, dispatch, and card-on-file billing in one place so a new hire is productive in days, not weeks.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

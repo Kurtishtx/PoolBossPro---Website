@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Dispatch Your Pool Routes With the Numbers in Front of You</h3>
           <p>PoolBossPro shows you committed revenue, route value, and unbilled stops before any crew leaves, so every dispatch is a profitable one.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">Keywords: pool route revenue reporting, pool service software, pool crew dispatch software, recurring pool route scheduling, pool invoicing &amp; billing, unbilled stop tracking</div>

@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Charge the card the day you clean. Receipt sent. Zero invoicing, zero chasing checks.</h3>
           <p>PoolBossPro stores cards on each pool profile and charges them automatically the moment a cleaning is marked complete &mdash; so you get paid the same day the water gets balanced.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">Keywords: card on file pool service software, pool cleaning automatic payments, pool service invoicing software, recurring pool cleaning billing, pool service get paid faster, pool maintenance payment processing</div>

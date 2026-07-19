@@ -38,6 +38,7 @@ export default function Page() {
           <h3>See the Job Board Run Your Overflow Work</h3>
           <p>PoolBossPro keeps recurring routes, green-to-clean recoveries, repairs, and one-off visits in one system &mdash; scheduled, dispatched, logged, and invoiced.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: pool cleaning software, pool service job board, crew dispatch and routing, green-to-clean scheduling, water chemistry logging, pool service invoicing</div>
       </article>

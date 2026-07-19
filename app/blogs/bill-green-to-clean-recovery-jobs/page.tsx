@@ -105,6 +105,7 @@ export default function Page() {
           <h3>Stop Losing Money on Green-to-Clean Jobs</h3>
           <p>PoolBossPro scopes your recovery jobs, logs the water chemistry that proves the work, and charges a card on file at every phase so you get paid for every single trip.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: green-to-clean pool billing software, pool recovery job invoicing, pool service invoicing app, water chemistry logging software, card on file pool payments, pool maintenance billing software</div>
       </article>

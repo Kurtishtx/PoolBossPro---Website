@@ -91,6 +91,7 @@ export default function Page() {
           <h3>Put your pool routes on autopilot</h3>
           <p>PoolBossPro auto-generates recurring weekly routes, dispatches them to your crew, and logs chemistry, invoices, and texts on every stop.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: pool scheduling software, recurring pool routes, pool route and dispatch software, water chemistry logging, pool service scheduling software, pool service invoicing software</div>
       </article>

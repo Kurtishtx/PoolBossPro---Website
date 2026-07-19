@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Put the chemistry log where your techs already are</h3>
           <p>PoolBossPro captures chlorine, pH, and alkalinity right at the pool, ties every reading to the property profile, and turns field tests into a history you can stand behind.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: pool cleaning software, water chemistry logging, chlorine pH alkalinity tracking, pool maintenance software, pool service app, recurring pool route scheduling</div>
       </article>

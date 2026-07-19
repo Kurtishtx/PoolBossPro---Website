@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Catch the bad reading before the pool turns green.</h3>
           <p>PoolBossPro flags out-of-range water chemistry on the Job Board, turns it into a scheduled follow-up on the right route, and bills the extra work to the card on file &mdash; so problem pools never slip past you.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

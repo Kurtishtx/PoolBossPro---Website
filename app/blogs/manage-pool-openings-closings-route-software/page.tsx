@@ -39,6 +39,7 @@ export default function Page() {
           <h3>Run openings, closings, and weekly routes from one system</h3>
           <p>PoolBossPro keeps your recurring cleaning routes humming while you dispatch, chart chemistry, and invoice every seasonal opening and closing in one place.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: pool service software, pool route scheduling software, pool dispatch software, pool opening and closing software, water chemistry logging app, pool service invoicing software</div>
       </article>

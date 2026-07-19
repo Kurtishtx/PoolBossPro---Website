@@ -99,6 +99,7 @@ export default function Page() {
           <h3>Run Your Pool Routes and Chemistry in One Place</h3>
           <p>PoolBossPro ties recurring route scheduling, water chemistry logging, invoicing, and customer texts into a single system built for pool service businesses.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: pool chemical tracking software, recurring pool route scheduling, pool service software, water chemistry logging, pool service dispatch software, pool maintenance invoicing software</div>
       </article>

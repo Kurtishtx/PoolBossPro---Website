@@ -104,6 +104,7 @@ export default function Page() {
           <h3>Prove every pool stop with PoolBossPro</h3>
           <p>PoolBossPro attaches timestamped photos and water chemistry readings to every recurring stop, so you can verify the work and end disputes in seconds.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: pool service verification software, pool route software, water chemistry logging app, pool maintenance proof of service, pool service dispatch software, recurring pool cleaning software</div>
       </article>

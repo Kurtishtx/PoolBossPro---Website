@@ -38,6 +38,7 @@ export default function Page() {
           <h3>Turn every chemistry reading into revenue with PoolBossPro</h3>
           <p>PoolBossPro logs water chemistry on every pool, flags equipment repair leads, and turns them into quotes, dispatched jobs, and paid invoices automatically.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: pool chemical tracking software, pool service software, water chemistry logging, pool equipment repair software, pool route scheduling software, pool service invoicing software</div>
       </article>

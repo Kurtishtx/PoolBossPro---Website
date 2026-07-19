@@ -94,6 +94,7 @@ export default function Page() {
           <h3>Move Your Pool Route Without Losing a Single Stop</h3>
           <p>PoolBossPro imports your customers, pool profiles, and recurring schedule so your route, water chemistry logging, and card-on-file billing run from day one.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">Keywords: pool cleaning software, import pool service customer list, pool route scheduling software, water chemistry logging, pool service invoicing software, card-on-file pool billing</div>

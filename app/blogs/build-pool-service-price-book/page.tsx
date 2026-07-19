@@ -105,6 +105,7 @@ export default function Page() {
           <h3>One Price Book, Every Tech Bills the Same</h3>
           <p>PoolBossPro keeps your flat rates, per-visit jobs, and chemical upcharges in one standardized list, so every invoice off your recurring route is consistent and gets charged to the card on file.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: pool service price book, pool invoicing software, pool service billing software, standardized pool pricing, per-visit pool invoicing, card on file pool service</div>
       </article>

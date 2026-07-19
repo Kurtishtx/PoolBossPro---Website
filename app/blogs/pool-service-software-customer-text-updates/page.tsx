@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Every customer texted automatically&mdash;heads-up, completion with chemistry, and payment&mdash;with zero manual effort.</h3>
           <p>PoolBossPro fires automatic customer texts at every point in your pool service route, from the night-before heads-up to the completion message with real water chemistry readings.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

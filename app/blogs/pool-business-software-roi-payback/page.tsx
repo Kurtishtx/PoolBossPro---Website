@@ -37,6 +37,7 @@ export default function Page() {
           <h3>See the payback on your own routes.</h3>
           <p>PoolBossPro tightens your routes, captures every upcharge, runs card-on-file payments automatically, and gives you back the hours you spend on billing.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

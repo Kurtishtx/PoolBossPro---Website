@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Send Every Customer a Real Service Report</h3>
           <p>PoolBossPro logs chemistry, photos, and notes on each stop and turns them into automatic end-of-day reports that keep customers paying and loyal.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: pool service software, end-of-day service reports, water chemistry logging, pool route scheduling software, pool service invoicing, pool maintenance customer texts</div>
       </article>

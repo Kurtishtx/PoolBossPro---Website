@@ -39,6 +39,7 @@ export default function Page() {
           <h3>Turn every route stop into repair revenue.</h3>
           <p>PoolBossPro captures equipment repairs at the pool, dispatches them off the Job Board, and bills them to the card on file &mdash; so your second revenue stream actually gets collected.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

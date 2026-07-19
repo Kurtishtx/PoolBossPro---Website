@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Replace the morning dispatch call with one tap.</h3>
           <p>PoolBossPro pushes each crew a complete, mapped pool route &mdash; profiles, chemistry forms, and customer texts included &mdash; while you watch completion and billing happen in real time.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

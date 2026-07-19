@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Billing That Scales With Every Truck You Add</h3>
           <p>PoolBossPro pulls every crew&apos;s completed cleans, chemicals, and repairs into one accurate billing system, so growing your route count never grows your billing headaches.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">Keywords: pool service billing software, multi-crew pool invoicing, recurring pool route billing, pool service crew dispatch, water chemistry logging, card-on-file pool payments</div>

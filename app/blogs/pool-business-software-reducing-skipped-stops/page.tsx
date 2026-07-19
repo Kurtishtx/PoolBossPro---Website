@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Stop losing pools to skipped stops and locked gates</h3>
           <p>PoolBossPro keeps every weekly stop on the schedule, dispatches complete routes with access notes, texts customers before you arrive, and logs water chemistry on every visit so nothing slips.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

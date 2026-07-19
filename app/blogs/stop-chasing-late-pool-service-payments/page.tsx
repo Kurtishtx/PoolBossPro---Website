@@ -106,6 +106,7 @@ export default function Page() {
           <h3>Get Paid Without the Awkward Phone Calls</h3>
           <p>PoolBossPro invoices your recurring pool routes, charges cards on file, and sends automated reminders so late payments collect themselves.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: automated payment reminders pool service, pool service invoicing software, late pool payment collection, recurring pool billing software, pool route invoicing app, pool service overdue invoice reminders</div>
       </article>

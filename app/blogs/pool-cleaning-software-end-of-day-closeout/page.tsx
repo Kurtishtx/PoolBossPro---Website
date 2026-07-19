@@ -94,6 +94,7 @@ export default function Page() {
           <h3>End Your Pool Route, Not Your Evening</h3>
           <p>PoolBossPro closes out each stop as you go&mdash;chemistry logged, invoices sent, and customers texted&mdash;so your day really ends when the last pool is done.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: pool cleaning software, pool service end-of-day closeout, water chemistry logging app, pool route invoicing software, card-on-file pool payments, pool service reporting</div>
       </article>

@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Run repairs and cleaning from one route</h3>
           <p>PoolBossPro slots repair calls into your existing cleaning routes, dispatches the closest crew, and turns logged parts and labor into paid invoices automatically.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: pool service software, pool route &amp; dispatch software, pool repair scheduling, crew dispatch software, pool equipment repair tracking, pool service invoicing</div>
       </article>

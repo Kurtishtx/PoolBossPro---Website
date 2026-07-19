@@ -92,6 +92,7 @@ export default function Page() {
           <h3>Stop paying the manual scheduling tax</h3>
           <p>PoolBossPro automates recurring pool routes, dispatch, water chemistry logging, and card-on-file invoicing so no stop or dollar slips through the cracks.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: pool scheduling software, recurring pool route scheduling, pool service dispatch software, pool route invoicing, water chemistry logging app, pool service software</div>
       </article>

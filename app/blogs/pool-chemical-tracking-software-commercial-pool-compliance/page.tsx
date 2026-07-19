@@ -95,6 +95,7 @@ export default function Page() {
           <h3>Keep Spotless Chemical Logs on Every Commercial Pool</h3>
           <p>PoolBossPro logs chlorine, pH, alkalinity, and more on each visit and keeps a time-stamped record per pool you can pull up in seconds.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: pool chemical tracking software, commercial pool service software, water chemistry logging, pool maintenance records software, chlorine pH alkalinity logs, pool service compliance software</div>
       </article>

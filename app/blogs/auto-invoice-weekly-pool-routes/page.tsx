@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Let Your Pool Routes Invoice Themselves</h3>
           <p>PoolBossPro turns every completed weekly clean into an accurate, sent, and paid invoice &mdash; no manual math, no missed stops.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">Keywords: pool service invoicing software, automated pool route billing, recurring pool cleaning invoices, water chemistry logging, card-on-file pool payments, pool route management software</div>

@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Turn your readings into reports with PoolBossPro</h3>
           <p>PoolBossPro logs water chemistry and chemical doses at every pool, then rolls them into dashboards that show usage, cost, and profit per pool and per route.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: pool chemical tracking software, water chemistry logging software, pool service reporting software, pool chemical usage dashboard, pool route profitability software, pool maintenance invoicing software</div>
       </article>

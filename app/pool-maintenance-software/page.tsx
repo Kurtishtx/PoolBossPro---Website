@@ -225,6 +225,7 @@ export default function PoolMaintenanceSoftware() {
         <p>Most field service software is built for plumbers and HVAC techs. PoolBossPro is built from the ground up for pool service businesses &mdash; recurring weekly cleaning routes, water chemistry logging, green-to-clean recovery, equipment repair, and pool openings and closings work nothing like a one-off service call, and your software shouldn&apos;t pretend they do.</p>
         <div className="hero-btns">
           <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }} className="btn-primary">Start Your 14-Day Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
         <div className="hero-stats">
           <div><div className="hero-stat-val">Weekly</div><div className="hero-stat-lbl">Recurring Routes On Autopilot</div></div>
@@ -558,6 +559,7 @@ export default function PoolMaintenanceSoftware() {
         <p>PoolBossPro is the only pool maintenance software built by someone who has actually run a pool route. Try it free for 14 days.</p>
         <div className="hero-btns">
           <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(3, e.currentTarget as HTMLElement); }} className="btn-primary" style={{fontSize:'17px', padding:'18px 44px'}}>Start Your 14-Day Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
       </div>
 

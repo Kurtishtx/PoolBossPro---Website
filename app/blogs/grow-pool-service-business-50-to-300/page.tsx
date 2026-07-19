@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Grow from 50 to 300 pools without growing your overhead</h3>
           <p>PoolBossPro automates recurring scheduling, crew dispatch, water chemistry logging, and card-on-file billing so you can scale your pool service business without an office manager.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: pool service software, pool maintenance software, pool route scheduling software, pool dispatch software, water chemistry logging software, pool service invoicing software</div>
       </article>

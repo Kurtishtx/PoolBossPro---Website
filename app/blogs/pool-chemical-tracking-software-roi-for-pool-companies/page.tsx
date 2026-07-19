@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Make Every Reading Pay for Itself</h3>
           <p>PoolBossPro logs your water chemistry, tracks chemical usage, tightens your routes, and bills it all automatically &mdash; so your service business keeps the margin it earns.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: pool chemical tracking software, pool service software, water chemistry logging, pool route scheduling software, pool service invoicing, pool maintenance software</div>
       </article>

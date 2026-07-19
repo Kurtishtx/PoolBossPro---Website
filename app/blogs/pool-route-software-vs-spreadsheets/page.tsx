@@ -40,6 +40,7 @@ export default function Page() {
           <h3>Your spreadsheet got you to 100 pools. Software gets you past it.</h3>
           <p>PoolBossPro replaces the manual grind behind your spreadsheet with recurring route scheduling, dispatch, water chemistry logging, customer texts, and card-on-file billing &mdash; built for pool service.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

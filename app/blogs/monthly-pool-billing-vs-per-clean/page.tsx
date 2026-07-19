@@ -106,6 +106,7 @@ export default function Page() {
           <h3>Put Your Pool Route on Predictable Monthly Billing</h3>
           <p>PoolBossPro automates flat monthly billing, card-on-file autopay, and route scheduling so your cash flow stays smooth and steady.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: pool service billing software, monthly pool billing, pool invoicing software, card-on-file pool payments, recurring pool route scheduling, pool service autopay</div>
       </article>

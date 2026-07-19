@@ -87,6 +87,7 @@ export default function Page() {
           <h3>Get Paid Before the Truck Leaves the Driveway</h3>
           <p>PoolBossPro lets your crew invoice pool equipment repairs on-site and charge the card on file the instant the work is done.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: pool service invoicing software, pool equipment repair billing, card-on-file pool payments, on-site pool invoicing, pool maintenance software, pool service billing app</div>
       </article>

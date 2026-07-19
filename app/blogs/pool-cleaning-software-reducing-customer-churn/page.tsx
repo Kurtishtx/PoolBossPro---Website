@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Keep More of the Pool Customers You Worked Hard to Win</h3>
           <p>PoolBossPro keeps every weekly visit on schedule, logs your water chemistry, texts proof to customers, and bills cards on file automatically &mdash; so accounts stay year after year.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">Keywords: pool cleaning software, pool service customer retention, recurring pool route scheduling, water chemistry logging software, pool service invoicing software, card-on-file pool billing</div>

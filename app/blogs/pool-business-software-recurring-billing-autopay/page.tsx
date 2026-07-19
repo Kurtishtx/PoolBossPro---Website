@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Put your whole pool route on autopay and watch accounts receivable go to zero.</h3>
           <p>PoolBossPro charges a card on file automatically against each completed weekly cleaning, sends receipts, recovers failed cards, and shows your recurring revenue in real time.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

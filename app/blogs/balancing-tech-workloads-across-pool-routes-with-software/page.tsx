@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Even out every route &mdash; by stops, drive time, and pool complexity &mdash; from one screen.</h3>
           <p>PoolBossPro builds recurring routes by density, shows each crew&apos;s real load, and lets you rebalance live with the Job Board, water chemistry history, and card-on-file billing built in.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

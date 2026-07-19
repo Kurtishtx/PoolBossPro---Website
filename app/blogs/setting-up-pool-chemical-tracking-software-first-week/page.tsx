@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Be logging readings on every pool by Friday.</h3>
           <p>PoolBossPro gets your pools, routes, and water-chemistry forms set up fast so chlorine, pH, alkalinity, cyanuric, and salt land on every stop &mdash; and tie straight to billing and customer texts.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

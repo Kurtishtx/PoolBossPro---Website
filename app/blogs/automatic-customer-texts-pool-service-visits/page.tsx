@@ -91,6 +91,7 @@ export default function Page() {
           <h3>Let every pool stop text the customer for you</h3>
           <p>PoolBossPro automates customer texts off your recurring route, chemistry logs, and invoices so every visit confirms itself.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: pool service texting software, automatic customer texts, pool route and dispatch software, water chemistry logging, pool service scheduling software, pool service invoicing software</div>
       </article>

@@ -92,6 +92,7 @@ export default function Page() {
           <h3>Stop Letting Cyanuric Acid Sneak Up On Your Pools</h3>
           <p>PoolBossPro logs every CYA reading by pool, flags the creep, and turns drain-and-dilute work into scheduled, billable jobs your crew actually completes.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">Keywords: pool chemical tracking software, cyanuric acid management, pool service software, water chemistry logging, pool route scheduling software, pool maintenance invoicing</div>

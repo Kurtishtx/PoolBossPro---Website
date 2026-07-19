@@ -37,6 +37,7 @@ export default function Page() {
           <h3>See exactly where your pool routes make money.</h3>
           <p>PoolBossPro tracks every recurring stop, chemistry reading, invoice, and payment, then turns them into revenue and route reports that tell you where to tighten, reprice, and grow.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

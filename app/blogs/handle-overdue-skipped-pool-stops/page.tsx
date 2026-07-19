@@ -38,6 +38,7 @@ export default function Page() {
           <h3>Never Let a Pool Stop Slip Through the Cracks</h3>
           <p>PoolBossPro flags overdue and skipped stops, reroutes your crews, and keeps customers in the loop automatically.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: pool route software, pool service dispatch software, pool cleaning scheduling software, pool service job board, water chemistry logging software, pool service customer texting</div>
       </article>

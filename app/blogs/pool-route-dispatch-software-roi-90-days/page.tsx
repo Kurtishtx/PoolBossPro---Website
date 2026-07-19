@@ -37,6 +37,7 @@ export default function Page() {
           <h3>See the payback in your first 90 days.</h3>
           <p>PoolBossPro ties routing, dispatch, water chemistry, and card-on-file billing into one system, so tighter routes and on-time recurring revenue start covering the cost almost immediately.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

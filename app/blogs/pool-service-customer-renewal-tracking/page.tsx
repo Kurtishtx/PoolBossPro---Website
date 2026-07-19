@@ -89,6 +89,7 @@ export default function Page() {
           <h3>Stop letting renewals slip through the cracks</h3>
           <p>PoolBossPro shows you exactly which pool service customers are up for renewal and lets you re-sign them with a text, a route stop, and card-on-file payments.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: pool service renewal tracking software, pool maintenance software, recurring pool cleaning scheduling, pool customer profiles, pool service invoicing, water chemistry logging</div>
       </article>

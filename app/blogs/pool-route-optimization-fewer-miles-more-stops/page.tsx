@@ -46,6 +46,7 @@ export default function Page() {
           <h3>Fit more pools into every route day.</h3>
           <p>PoolBossPro builds optimized weekly routes from your recurring pool list with map-based stop selection, automatic drive-order sequencing, chemistry logging, and card-on-file invoicing.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

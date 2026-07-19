@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Give Every Pool Customer a Five-Star Experience</h3>
           <p>PoolBossPro keeps your recurring routes on time, logs water chemistry, texts customers, and bills card-on-file automatically &mdash; so service feels effortless on their end.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: pool business software, pool service customer experience, recurring pool scheduling software, water chemistry logging, card-on-file pool billing, pool service customer texts</div>
       </article>

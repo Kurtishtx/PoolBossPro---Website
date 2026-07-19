@@ -53,6 +53,7 @@ export default function Page() {
           <h3>Log opening and closing chemistry with PoolBossPro</h3>
           <p>PoolBossPro lets your crews record start-up and winterizing readings at the pool, tie them to the property, and bill the chemicals automatically.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: pool chemical tracking software, pool opening and closing software, water chemistry logging, pool service scheduling software, pool maintenance app, card-on-file pool invoicing</div>
       </article>

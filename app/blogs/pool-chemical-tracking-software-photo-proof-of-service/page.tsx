@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Every pool stop logged with chemistry and a photo &mdash; proof of service built into the route.</h3>
           <p>PoolBossPro pairs water chemistry logs with timestamped service photos on every visit, so your crews capture verifiable proof of service automatically and your customers see the value every week.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

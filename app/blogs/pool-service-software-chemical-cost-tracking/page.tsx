@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Know the true cost of every pool you service</h3>
           <p>PoolBossPro prices the chemicals added on each stop, ties them to the pool profile, and shows you the real margin on every weekly account.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: pool service software, chemical cost tracking, per-pool profitability, pool maintenance software, water chemistry logging, pool service invoicing</div>
       </article>

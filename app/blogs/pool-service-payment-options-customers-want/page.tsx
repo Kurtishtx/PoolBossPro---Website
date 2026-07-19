@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Give pool customers the payment options they actually want &mdash; automatic, card-on-file, paid the day of service.</h3>
           <p>PoolBossPro charges the card on file after each completed pool visit, texts the receipt, and sends pay-by-link invoices for repairs and openings &mdash; so collection runs itself.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

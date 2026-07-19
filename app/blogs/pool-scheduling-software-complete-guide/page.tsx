@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Run every pool, route, and reading from one place</h3>
           <p>PoolBossPro auto-schedules recurring cleans, dispatches repairs, logs full water chemistry, and bills card-on-file &mdash; built for pool service from the ground up.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

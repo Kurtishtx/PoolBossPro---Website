@@ -50,6 +50,7 @@ export default function Page() {
           <h3>Never Let a Pool Stop Go Uncovered Again</h3>
           <p>PoolBossPro runs your recurring routes, crew dispatch, water chemistry logging, invoicing, and the Job Board that fills open pool stops fast.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: pool scheduling software, pool service job board, crew dispatch and routing, recurring route scheduling, reassign pool stops software, pool service customer texts</div>
       </article>

@@ -38,6 +38,7 @@ export default function Page() {
           <h3>Get New Pool Techs Productive in Days, Not Weeks</h3>
           <p>PoolBossPro hands every technician route-based scheduling, pool profiles, water chemistry logging, dispatch, and automatic invoicing so onboarding runs itself.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: pool business software, pool service scheduling software, pool route management software, water chemistry logging app, pool tech onboarding software, pool service dispatch software</div>
       </article>

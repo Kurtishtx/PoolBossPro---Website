@@ -43,6 +43,7 @@ export default function Page() {
           <h3>Pack your routes, cut your drive time.</h3>
           <p>PoolBossPro builds dense, map-based weekly cleaning routes, logs water chemistry, dispatches to your techs, and bills card-on-file &mdash; all from one recurring schedule.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

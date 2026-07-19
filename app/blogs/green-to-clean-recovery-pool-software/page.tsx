@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Run every green-to-clean like a tracked project</h3>
           <p>PoolBossPro logs the chemistry, schedules the follow-up visits, tallies the chemicals, and invoices the whole recovery so you get paid for every drop.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: green-to-clean pool software, pool service scheduling software, water chemistry logging app, pool route dispatch software, pool service invoicing software, pool maintenance software</div>
       </article>

@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Keep more pool accounts with a service history that proves your value</h3>
           <p>PoolBossPro logs every visit, reading, and dose automatically, then texts customers the proof &mdash; so weekly cleaning accounts stay on your route season after season.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: pool service software, customer retention software, pool service history, recurring pool cleaning scheduling, pool maintenance software, automated customer texts</div>
       </article>

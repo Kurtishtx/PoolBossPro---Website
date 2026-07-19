@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Onboard Every New Pool Account in Minutes</h3>
           <p>PoolBossPro turns a signed customer into a complete pool profile, recurring route stop, and card-on-file account &mdash; so the first visit lands right and the billing starts itself.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">Keywords: pool scheduling software, customer onboarding, pool service software, recurring route scheduling, pool property profiles, card-on-file payments</div>

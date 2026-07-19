@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Send every crew a complete pool route &mdash; in order, with profiles and chemistry forms attached.</h3>
           <p>PoolBossPro builds recurring route-based schedules, optimizes stop order, and dispatches pool profiles, water chemistry logs, and access notes to your techs from one office action &mdash; so your crews clean more pools per day with zero morning phone calls.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Stop paying for missed visits in free green-to-clean recoveries and lost accounts.</h3>
           <p>PoolBossPro verifies every stop with a chemistry log and completion status, flags skipped pools in real time, and only bills the visits that actually happened.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

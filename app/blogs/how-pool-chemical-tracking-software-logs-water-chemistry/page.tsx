@@ -62,6 +62,7 @@ export default function Page() {
           <h3>Log every reading at the pool with PoolBossPro</h3>
           <p>PoolBossPro lets your techs record chlorine, pH, and alkalinity in the field, tie them to the pool, and bill the chemicals automatically.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: pool chemical tracking software, water chemistry logging, pool service software, chlorine and pH tracking, pool route management software, pool maintenance app</div>
       </article>

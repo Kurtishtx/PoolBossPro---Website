@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Bill every stop, get paid in days, and stop chasing checks.</h3>
           <p>PoolBossPro turns every completed pool stop into an invoice, runs card-on-file payments automatically, and keeps your recurring revenue on the books.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

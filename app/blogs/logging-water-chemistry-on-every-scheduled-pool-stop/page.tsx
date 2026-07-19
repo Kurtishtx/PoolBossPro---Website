@@ -50,6 +50,7 @@ export default function Page() {
           <h3>Log Clean Chemistry on Every Pool Stop</h3>
           <p>PoolBossPro builds water chemistry logging, recurring scheduling, dispatch, and card-on-file invoicing into one app for pool service businesses.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">Keywords: water chemistry logging software, pool service software, pool route scheduling software, pool maintenance app, pool chemistry tracking, pool service dispatch software</div>

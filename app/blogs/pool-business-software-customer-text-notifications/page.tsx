@@ -41,6 +41,7 @@ export default function Page() {
           <h3>Let PoolBossPro Send the Updates For You</h3>
           <p>PoolBossPro fires on-my-way and service-update texts straight off your recurring routes &mdash; complete with water readings, reschedules, and payment receipts &mdash; so you stop fielding &quot;did you come today?&quot; calls.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">Keywords: pool business software, on-my-way customer texts, pool service software, recurring route scheduling, water chemistry logging, card-on-file payments</div>

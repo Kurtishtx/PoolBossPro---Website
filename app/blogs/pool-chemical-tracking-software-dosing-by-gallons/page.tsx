@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Dose every pool right the first time with PoolBossPro</h3>
           <p>PoolBossPro stores each pool&apos;s gallon count and calculates exact chemical doses from your water tests, so every stop on the route gets balanced fast.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: pool chemical tracking software, pool dosing calculator, water chemistry logging app, pool service software, pool route scheduling software, chlorine dosing by gallons</div>
       </article>

@@ -90,6 +90,7 @@ export default function Page() {
           <h3>Track every pool&apos;s water chemistry over time</h3>
           <p>PoolBossPro logs chlorine, pH, and alkalinity at each scheduled stop and turns them into trends you can act on.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: pool scheduling software, water chemistry logging, pool service software, chlorine and pH tracking, recurring pool route scheduling, pool maintenance reporting software</div>
       </article>

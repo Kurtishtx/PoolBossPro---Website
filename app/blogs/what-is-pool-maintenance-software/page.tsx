@@ -40,6 +40,7 @@ export default function Page() {
           <h3>Run Your Whole Pool Route From One App</h3>
           <p>PoolBossPro schedules recurring service, dispatches crews, logs water chemistry, and bills card-on-file payments so nothing slips and you always get paid.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: pool maintenance software, pool service software, pool route scheduling, water chemistry logging, pool service dispatch, pool service invoicing</div>
       </article>

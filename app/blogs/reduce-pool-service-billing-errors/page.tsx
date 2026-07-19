@@ -97,6 +97,7 @@ export default function Page() {
           <h3>Stop losing money to billing mistakes</h3>
           <p>PoolBossPro builds every invoice straight from the completed pool stop and its chemistry log, so you charge the right amount every time.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: pool service billing software, job-linked invoicing, pool invoicing software, reduce billing errors pool service, water chemistry billing, card on file pool payments</div>
       </article>

@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Put Every Pool Tech&apos;s Route on Their Phone</h3>
           <p>PoolBossPro gives each tech their daily route, pool profiles, water-chemistry logging, and same-day invoicing in one app &mdash; so crews run stops without printouts and the office sees everything live.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">Keywords: pool scheduling software, pool tech route app, recurring route scheduling, crew dispatch and routing, water chemistry logging, card-on-file payments</div>

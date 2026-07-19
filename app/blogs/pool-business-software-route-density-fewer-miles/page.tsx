@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Pack more pools into every route day</h3>
           <p>PoolBossPro builds tight, map-based recurring routes, logs water chemistry, and bills card-on-file so your crews clean more pools per mile.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: pool business software, pool route density software, pool service scheduling software, pool cleaning route optimization, pool service dispatch software, water chemistry logging software</div>
       </article>

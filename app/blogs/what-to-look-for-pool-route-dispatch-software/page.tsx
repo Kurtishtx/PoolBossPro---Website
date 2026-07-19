@@ -37,6 +37,7 @@ export default function Page() {
           <h3>See a pool-first platform built around this exact checklist</h3>
           <p>PoolBossPro runs recurring route scheduling, dispatch, water chemistry logging, card-on-file billing, customer texts, and reporting in one place built for pool service.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

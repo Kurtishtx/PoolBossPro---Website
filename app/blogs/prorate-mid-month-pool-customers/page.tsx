@@ -50,6 +50,7 @@ export default function Page() {
           <h3>Let PoolBossPro do the partial-month math for you</h3>
           <p>PoolBossPro prorates mid-month pool customers automatically and charges card-on-file, so your first invoice is accurate and paid without the manual math.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">Keywords: pool service billing software, prorate pool customers, pool invoicing software, recurring pool service scheduling, card-on-file pool payments, pool service invoice automation</div>

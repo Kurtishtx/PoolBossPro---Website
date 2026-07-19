@@ -36,6 +36,7 @@ export default function Page() {
           <h3>See PoolBossPro Side by Side With Your Binder</h3>
           <p>PoolBossPro runs your recurring routes, water chemistry, invoicing, and customer texts in one place &mdash; so nothing lives in a shoebox of slips.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: pool cleaning software, pool service scheduling software, water chemistry logging app, pool route management software, pool service invoicing software, pool maintenance software</div>
       </article>

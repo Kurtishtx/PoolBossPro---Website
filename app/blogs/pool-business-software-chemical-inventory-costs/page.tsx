@@ -99,6 +99,7 @@ export default function Page() {
           <h3>Know your chemical costs to the pound</h3>
           <p>PoolBossPro tracks chemical inventory and per-pool cost straight from the water-chemistry doses your techs log on every route.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: pool business software, chemical inventory tracking pool service, pool chemical cost reporting, water chemistry log software, pool route profitability software, chemical reorder alerts pool</div>
       </article>

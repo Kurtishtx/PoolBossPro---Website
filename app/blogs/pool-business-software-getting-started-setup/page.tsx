@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Get your whole pool route running in PoolBossPro this week</h3>
           <p>PoolBossPro handles recurring scheduling, crew dispatch, water chemistry logging, and card-on-file invoicing so your pool service business runs on rails.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

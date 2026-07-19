@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Make billing the easiest part of being your customer.</h3>
           <p>PoolBossPro charges cards on file automatically, sends clear receipts and service texts, and flags failed payments early &mdash; so recurring pool accounts stay paid and stay with you.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

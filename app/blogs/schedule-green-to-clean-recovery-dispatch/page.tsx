@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Run every green-to-clean as a dispatched multi-visit job, start to finish.</h3>
           <p>PoolBossPro schedules the recovery, routes each return trip, logs water chemistry on every pass, and bills the full cost on the card on file &mdash; then converts the clean pool to a recurring route stop.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Keep every reading on every pool</h3>
           <p>PoolBossPro logs cyanuric acid, salt, and phosphate readings on each visit, ties them to pool profiles and dosing, and turns the data into invoices and customer texts.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: pool business software, water chemistry logging software, cyanuric acid tracking, salt pool service software, phosphate tracking pool software, pool service invoicing software</div>
       </article>

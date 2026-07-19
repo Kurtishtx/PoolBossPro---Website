@@ -41,6 +41,7 @@ export default function Page() {
           <h3>Send full routes, pool profiles, and chemistry forms with one dispatch &mdash; no morning phone calls.</h3>
           <p>PoolBossPro pushes recurring routes, pool profiles, and water chemistry log forms to your crews from a single office action, so every truck can leave the shop without a coordination call.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

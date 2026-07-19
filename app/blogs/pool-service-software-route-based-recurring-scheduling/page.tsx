@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Build your weekly cleaning route once. Let PoolBossPro run it every week.</h3>
           <p>PoolBossPro auto-generates route-based recurring schedules, dispatches crews from the Job Board, logs water chemistry per pool, and bills card-on-file &mdash; all in one platform built for pool service.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

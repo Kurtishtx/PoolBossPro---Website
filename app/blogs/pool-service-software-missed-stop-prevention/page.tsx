@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Verify every pool got serviced before the customer is the one who finds out it didn&apos;t.</h3>
           <p>PoolBossPro closes out every stop with a chemistry log and completion status, flags skipped pools in real time, and only bills the visits that actually happened.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

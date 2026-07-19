@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Put a checklist on every pool stop</h3>
           <p>PoolBossPro guides your techs through every weekly visit, captures water chemistry and photos as they go, and gives you proof the work was done.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: pool service software, mobile service checklists, pool technician app, pool maintenance software, water chemistry logging, recurring pool service scheduling</div>
       </article>

@@ -55,6 +55,7 @@ export default function Page() {
           <h3>Trade the Grid for PoolBossPro</h3>
           <p>PoolBossPro runs your recurring routes, water chemistry logs, dispatch, and card-on-file invoicing in one system built for pool service.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: pool cleaning software, pool service scheduling software, route-based pool routing, water chemistry logging software, pool service invoicing software, pool business dispatch software</div>
       </article>

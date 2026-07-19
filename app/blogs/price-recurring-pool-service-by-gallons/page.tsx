@@ -41,6 +41,7 @@ export default function Page() {
           <h3>Price every pool for what it really costs you</h3>
           <p>PoolBossPro stores gallons, pool type, and equipment on each profile so you can price recurring service by real workload, then bill it automatically with card-on-file payments.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: pool service pricing software, pool maintenance software, recurring pool service billing, pool property profiles gallons, water chemistry logging, pool service card-on-file payments</div>
       </article>

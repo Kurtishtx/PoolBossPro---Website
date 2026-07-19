@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Build the route once, dispatch it in one tap, and let the chemistry log, texts, and invoices follow the truck.</h3>
           <p>PoolBossPro turns recurring pool routes into self-running schedules &mdash; dispatching full pool profiles and water-chemistry forms to your crews while you watch completion and billing happen in real time.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

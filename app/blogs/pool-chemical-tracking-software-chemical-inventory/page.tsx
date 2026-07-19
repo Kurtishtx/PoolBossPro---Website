@@ -41,6 +41,7 @@ export default function Page() {
           <h3>Track every reading and every dose with PoolBossPro</h3>
           <p>PoolBossPro logs water chemistry, ties each chemical dose to your inventory, and bills it to the card on file &mdash; so your stock, costs, and routes always match reality.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: pool chemical tracking software, water chemistry logging software, pool service inventory management, pool route scheduling software, pool maintenance invoicing software, pool chemical dosing software</div>
       </article>

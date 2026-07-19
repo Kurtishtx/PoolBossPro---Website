@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Time saved week one. Recovered cleanings month one. Faster cash all season.</h3>
           <p>PoolBossPro runs your recurring pool routes, logs water chemistry, dispatches your crew, and collects card-on-file payments &mdash; so the software pays for itself and then some.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

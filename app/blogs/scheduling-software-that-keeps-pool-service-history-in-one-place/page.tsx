@@ -50,6 +50,7 @@ export default function Page() {
           <h3>Keep Every Pool&apos;s Story in One Place</h3>
           <p>PoolBossPro ties your recurring routes to a complete, per-pool service history &mdash; chemistry, dispatch, invoicing, and reporting in one system.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: pool scheduling software, pool service history software, recurring pool route scheduling, water chemistry logging software, pool service dispatch software, pool maintenance invoicing software</div>
       </article>

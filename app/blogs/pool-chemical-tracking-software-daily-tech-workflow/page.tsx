@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Give your techs a day that runs itself</h3>
           <p>PoolBossPro sequences the route, calculates every dose, logs the chemistry, and bills the visit&mdash;so your techs spend the day servicing pools, not paperwork.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: pool chemical tracking software, pool tech workflow app, water chemistry logging software, pool service dispatch software, pool service mobile app, pool maintenance software</div>
       </article>

@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Get your pool route out of the spreadsheet</h3>
           <p>PoolBossPro replaces the spreadsheets, sticky notes, and group texts with one system for recurring scheduling, dispatch, water chemistry, and billing.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: pool service software, pool route software, replace spreadsheets pool business, pool service scheduling software, pool maintenance software, pool service crew dispatch</div>
       </article>

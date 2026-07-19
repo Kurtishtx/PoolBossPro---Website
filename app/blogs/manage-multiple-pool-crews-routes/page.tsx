@@ -40,6 +40,7 @@ export default function Page() {
           <h3>Run every pool crew from one screen.</h3>
           <p>PoolBossPro lets you split recurring routes, dispatch multiple crews, log water chemistry, and bill card-on-file payments &mdash; all from a single dispatch view.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

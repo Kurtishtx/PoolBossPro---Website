@@ -107,6 +107,7 @@ export default function Page() {
           <h3>Bill Every Extra Pool Visit the Day It Happens</h3>
           <p>PoolBossPro logs water chemistry, photos, and notes on every stop, then invoices extra visits on the spot and charges the card on file &mdash; so the proof and the price arrive together.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: pool service invoicing software, charge for extra pool visits, pool water chemistry logging, card on file pool payments, pool service job board dispatch, recurring pool route billing software</div>
       </article>

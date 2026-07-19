@@ -104,6 +104,7 @@ export default function Page() {
           <h3>Trade the clipboard for PoolBossPro</h3>
           <p>PoolBossPro runs your recurring routes, water chemistry, dispatch, invoicing, and customer texts from one platform built for pool service.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: pool service software, pool route scheduling software, water chemistry logging software, pool service dispatch software, pool cleaning invoicing software, pool maintenance software</div>
       </article>

@@ -89,6 +89,7 @@ export default function Page() {
           <h3>Keep Your Pool Routes Running Through Any Week</h3>
           <p>PoolBossPro absorbs skips, reschedules, and rain days so your recurring routes, water chemistry logs, and billing stay on track without manual rework.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: pool scheduling software, pool service route management, recurring pool cleaning software, pool route reschedule software, water chemistry logging, pool service dispatch software</div>
       </article>

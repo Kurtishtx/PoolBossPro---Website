@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Stop giving away chemicals with PoolBossPro</h3>
           <p>PoolBossPro turns every logged dose into an automatic invoice line and charges the card on file, so the product you pour always gets paid for.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: pool chemical tracking software, chemical upcharge billing, pool service invoicing software, card on file pool payments, water chemistry logging app, pool service software</div>
       </article>

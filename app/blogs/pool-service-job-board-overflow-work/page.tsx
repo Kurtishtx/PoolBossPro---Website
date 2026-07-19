@@ -50,6 +50,7 @@ export default function Page() {
           <h3>Stop Letting Pool Repairs Slip Through the Cracks</h3>
           <p>PoolBossPro runs your recurring routes, water chemistry logging, dispatch, invoicing, and the Job Board that captures every repair and overflow job in one place.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: pool service job board software, pool repair work order software, pool maintenance software, crew dispatch and routing, pool service invoicing card on file, green-to-clean scheduling software</div>
       </article>

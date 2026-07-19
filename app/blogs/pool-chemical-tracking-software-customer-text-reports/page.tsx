@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Let PoolBossPro Text Your Customers Their Water Report</h3>
           <p>PoolBossPro logs your pool chemistry, builds your recurring routes, bills the card on file, and texts every customer a clean chemistry report after each visit &mdash; all from one system.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">Keywords: pool chemical tracking software, water chemistry text reports, pool service customer texts, pool maintenance software, recurring pool route software, <a href="/pool-chemical-software">pool chemical tracking software</a></div>

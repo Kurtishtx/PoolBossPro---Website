@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Import your pool accounts once and let the software run the route.</h3>
           <p>PoolBossPro turns clean customer imports and detailed pool profiles into automated routing, water chemistry logging, and card-on-file billing for your service business.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

@@ -104,6 +104,7 @@ export default function Page() {
           <h3>Rebalance Your Pool Routes in Minutes</h3>
           <p>PoolBossPro handles recurring scheduling, smart dispatch, water chemistry logging, and card-on-file billing so your routes stay full and profitable in every season.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">Keywords: pool service software, pool route scheduling software, pool service route optimization, pool cleaning business software, recurring pool service scheduling, pool service dispatch software</div>

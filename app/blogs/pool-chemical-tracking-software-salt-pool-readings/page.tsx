@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Track every salt pool&apos;s chemistry, automatically</h3>
           <p>PoolBossPro logs salt, chlorine, and stabilizer readings on every saltwater stop, ties them to each pool profile and salt cell, and turns the numbers into a record you can act on.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: pool chemical tracking software, salt pool readings, saltwater pool chemistry logging, pool service software, salt cell tracking, water chemistry log</div>
       </article>

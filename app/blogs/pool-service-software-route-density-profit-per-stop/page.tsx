@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Pack your routes tighter and watch profit per stop climb.</h3>
           <p>PoolBossPro builds dense recurring routes, dispatches them with chemistry logging and pool profiles, and bills every stop on card-on-file so more pools per day means more money per day.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

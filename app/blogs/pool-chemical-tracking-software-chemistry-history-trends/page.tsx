@@ -93,6 +93,7 @@ export default function Page() {
           <h3>Read your pools&apos; chemistry like a pro</h3>
           <p>PoolBossPro logs every reading and dose, plots the trends, and routes your crew so problem pools get caught before they go green.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: pool chemical tracking software, water chemistry logging app, pool service scheduling software, pool route management software, pool chemistry trend reporting, pool maintenance software</div>
       </article>

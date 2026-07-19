@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Build a pool business that runs without you in the truck.</h3>
           <p>PoolBossPro holds your routes, chemistry logging, dispatch, and card-on-file billing so a crew can run the day while you grow the book.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

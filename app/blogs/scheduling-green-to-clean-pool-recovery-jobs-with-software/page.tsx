@@ -50,6 +50,7 @@ export default function Page() {
           <h3>Turn Green Pools Into Clean Profit With PoolBossPro</h3>
           <p>PoolBossPro schedules multi-visit recoveries, logs water chemistry, dispatches your crew, and bills card-on-file so every green-to-clean job stays organized and profitable.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: pool scheduling software, green-to-clean pool recovery software, water chemistry logging, pool service dispatch software, recurring pool route scheduling, card-on-file pool invoicing</div>
       </article>

@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Document every pool you service, automatically.</h3>
           <p>PoolBossPro captures photo proof, water chemistry, and completion on the same stop screen &mdash; then texts the customer the picture so they see the work every week.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

@@ -39,6 +39,7 @@ export default function Page() {
           <h3>Stop losing repairs to the dashboard sticky note.</h3>
           <p>PoolBossPro captures every equipment repair as a tracked work order tied to the pool profile, dispatches it, and bills it &mdash; so no job and no dollar slips through.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

@@ -50,6 +50,7 @@ export default function Page() {
           <h3>Stop the free re-visits with PoolBossPro</h3>
           <p>PoolBossPro logs every reading at the pool, trends the chemistry, and flags drifting water before it turns into a cloudy-water callback.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: pool chemical tracking software, water chemistry logging, pool service software, reduce pool callbacks, pool route management software, pool maintenance app</div>
       </article>

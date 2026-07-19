@@ -92,6 +92,7 @@ export default function Page() {
           <h3>Make every pool reading visible to your customers</h3>
           <p>PoolBossPro logs chlorine, pH, alkalinity, and more at the pool and shares it with customers to prove your value every week.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: pool chemical tracking software, water chemistry logging, pool service software, pool service invoicing software, pool maintenance reporting software, customer transparency software</div>
       </article>

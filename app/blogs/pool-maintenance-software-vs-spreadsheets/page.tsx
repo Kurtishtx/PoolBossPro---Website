@@ -95,6 +95,7 @@ export default function Page() {
             to the pool profile, the route, the invoice, and the customer text.
           </p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">Keywords: pool maintenance software, water chemistry logging software, pool service scheduling software, pool route software, pool chemical tracking software, pool cleaning invoicing software</div>

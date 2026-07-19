@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Let the software watch the water for you</h3>
           <p>PoolBossPro tracks chlorine, pH, alkalinity, cyanuric, salt, and phosphate on every stop and flags the trends that mean a pool is drifting &mdash; before it turns green.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: pool cleaning software, water chemistry trend tracking, chlorine pH alkalinity logging, cyanuric and salt monitoring, pool maintenance software, recurring pool service scheduling</div>
       </article>

@@ -39,6 +39,7 @@ export default function Page() {
           <h3>Run Your Opening and Closing Season on a Plan</h3>
           <p>PoolBossPro batches, routes, dispatches, and bills your pool openings and closings so the busy weeks run smoothly and nothing slips through the cracks.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: pool service software, pool opening scheduling software, pool closing software, pool cleaning route software, pool crew dispatch software, pool maintenance invoicing software</div>
       </article>

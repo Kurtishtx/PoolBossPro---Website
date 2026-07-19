@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Build denser pool routes and stop paying for windshield time.</h3>
           <p>PoolBossPro maps your pools, builds tight recurring routes, dispatches them with chemistry logging, and bills every stop on card-on-file so more pools per day means more money per day.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

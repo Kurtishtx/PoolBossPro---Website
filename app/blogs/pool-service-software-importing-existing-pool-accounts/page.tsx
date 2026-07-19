@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Bring Your Whole Pool Book Over in an Afternoon</h3>
           <p>PoolBossPro imports your existing accounts, builds your recurring routes, and wires up water chemistry logging, invoicing, and customer texts in one place.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: pool service software, import pool accounts, recurring pool route scheduling, water chemistry logging, pool service invoicing, card-on-file pool payments</div>
       </article>

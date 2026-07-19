@@ -50,6 +50,7 @@ export default function Page() {
           <h3>Run Your Openings and Closings the Easy Way</h3>
           <p>PoolBossPro schedules, logs, and invoices your seasonal pool jobs &mdash; with card-on-file payments and water chemistry records built in.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: pool service software, pool invoicing software, pool opening and closing scheduling, card-on-file pool payments, water chemistry logging, pool maintenance billing</div>
       </article>

@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Turn every completed pool stop into a paid one</h3>
           <p>PoolBossPro invoices each stop the second it is marked complete and charges the card on file, so your whole route collects itself the same day.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: pool scheduling software, instant pool stop invoicing, card-on-file pool payments, pool route billing software, same-day pool service billing, recurring pool cleaning software</div>
       </article>

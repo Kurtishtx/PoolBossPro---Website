@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Send the whole route &mdash; pools, chemistry forms, and property notes &mdash; with one dispatch click.</h3>
           <p>PoolBossPro builds your recurring pool routes automatically and dispatches each tech a complete day with water chemistry logging, pool profiles, customer texts, and card-on-file billing built in.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

@@ -99,6 +99,7 @@ export default function Page() {
           <h3>Get Your Pool Routes Live in a Week</h3>
           <p>PoolBossPro runs recurring scheduling, water chemistry logging, crew dispatch, and card-on-file invoicing so your pool cleaning business runs itself.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: pool cleaning software, pool service scheduling software, water chemistry logging app, pool route management software, pool cleaning invoicing software, recurring pool maintenance software</div>
       </article>

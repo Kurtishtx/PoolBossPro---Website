@@ -40,6 +40,7 @@ export default function Page() {
           <h3>Run opening and closing season on routes, not a notepad.</h3>
           <p>PoolBossPro schedules, dispatches, logs water chemistry, and invoices every pool opening and closing with card on file &mdash; so the busiest weeks of your year run themselves.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

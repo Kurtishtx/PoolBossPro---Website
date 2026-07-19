@@ -42,6 +42,7 @@ export default function Page() {
           <h3>Stop routing your pool service by gut feel.</h3>
           <p>PoolBossPro builds dense, map-based pool cleaning routes, sequences them automatically, and dispatches them to your crew so every truck services more pools per mile.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

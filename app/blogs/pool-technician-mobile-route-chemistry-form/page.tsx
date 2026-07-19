@@ -38,6 +38,7 @@ export default function Page() {
           <h3>Give Your Techs a Screen That Does the Work</h3>
           <p>PoolBossPro puts the route, pool property notes, and water chemistry form in one mobile view, then turns every completed stop into a customer text, an invoice, and a report automatically.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: pool maintenance software, pool technician mobile app, water chemistry logging software, pool route dispatch software, pool property profiles, pool service invoicing software</div>
       </article>

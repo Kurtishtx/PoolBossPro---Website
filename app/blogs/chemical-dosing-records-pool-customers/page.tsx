@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Log chlorine, pH, and every dose at the pool &mdash; records customers trust</h3>
           <p>PoolBossPro captures water chemistry as the completion step, ties every dose to the pool profile, and texts customers a clear summary of each visit.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

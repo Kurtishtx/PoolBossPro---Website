@@ -50,6 +50,7 @@ export default function Page() {
           <h3>Lock in Your Next Big Repair Before It Starts</h3>
           <p>PoolBossPro lets you quote, invoice a deposit, and charge the card on file so no repair job begins until you are paid.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: pool service software, pool repair deposits, card-on-file payments, pool invoicing software, pool maintenance billing, pool job scheduling</div>
       </article>

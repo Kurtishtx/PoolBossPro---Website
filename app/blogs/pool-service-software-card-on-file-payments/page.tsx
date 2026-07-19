@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Stop chasing invoices &mdash; let PoolBossPro collect for you</h3>
           <p>PoolBossPro charges card-on-file automatically on every recurring pool cleaning, so your weekly route gets paid the day it&apos;s serviced.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: pool service software, card-on-file pool payments, recurring pool cleaning billing, pool route invoicing software, automatic pool service payments, pool maintenance software</div>
       </article>

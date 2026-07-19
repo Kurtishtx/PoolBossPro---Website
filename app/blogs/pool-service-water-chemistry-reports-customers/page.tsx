@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Turn every reading into a report your customers love</h3>
           <p>PoolBossPro logs chlorine, pH, alkalinity, cyanuric, salt, and phosphate on each stop and texts a clean report &mdash; with photos &mdash; that proves the work and keeps accounts on your route.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: pool service software, water chemistry reports, chlorine pH alkalinity logging, customer text updates pool service, pool maintenance software, card-on-file pool invoicing</div>
       </article>

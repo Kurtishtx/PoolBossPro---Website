@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Card charged the day of service, chemicals billed straight from the water test, no invoicing cycle.</h3>
           <p>PoolBossPro stores a card on file for every pool account and charges it automatically at completion &mdash; weekly rate plus the chemicals your technician logged that visit.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

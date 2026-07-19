@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Build Every Pool Profile Once, Service It Right Forever</h3>
           <p>PoolBossPro stores pool size, gallons, and equipment on every account so your crews dose chemicals correctly, route efficiently, and invoice from accurate records.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: pool business software, pool service software, pool profile management, water chemistry logging software, pool route scheduling software, pool maintenance software</div>
       </article>

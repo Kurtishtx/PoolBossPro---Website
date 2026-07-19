@@ -40,6 +40,7 @@ export default function Page() {
           <h3>Put every pool&apos;s details to work in PoolBossPro</h3>
           <p>PoolBossPro stores gallons, pool type, and equipment on each property so dosing, dispatch, repairs, and billing run off accurate, pool-specific data &mdash; on every recurring stop.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: pool property profiles software, pool maintenance software, pool service dispatch software, water chemistry logging, pool equipment tracking, recurring pool route scheduling</div>
       </article>

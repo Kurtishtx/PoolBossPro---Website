@@ -104,6 +104,7 @@ export default function Page() {
           <h3>Put Your Pool Route on Autopilot Billing</h3>
           <p>PoolBossPro schedules your recurring cleanings, logs water chemistry, and bills every account monthly with card on file so you get paid without chasing checks.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: recurring pool cleaning billing software, card on file pool service, pool route software, automatic pool service invoicing, pool maintenance scheduling app, pool service payment processing</div>
       </article>

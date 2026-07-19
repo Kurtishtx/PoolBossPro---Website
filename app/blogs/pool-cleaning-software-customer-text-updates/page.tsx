@@ -50,6 +50,7 @@ export default function Page() {
           <h3>Quiet Your Phone, Keep Your Route Moving</h3>
           <p>PoolBossPro auto-texts your pool clients on-my-way, arrival, and service-complete updates &mdash; with the water chemistry to back it up &mdash; so techs stay on route and you stop returning where-is-my-tech calls.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: pool cleaning software, pool service customer texts, pool route scheduling software, water chemistry logging app, pool service dispatch software, pool service invoicing software</div>
       </article>

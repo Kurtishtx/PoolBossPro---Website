@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Let PoolBossPro do the billing while you run the routes</h3>
           <p>PoolBossPro turns completed pool stops into accurate invoices, charges cards on file, and chases overdue accounts automatically &mdash; so your office hours shrink and nothing goes unbilled.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: pool service billing software, pool invoicing software, card on file pool payments, recurring pool cleaning invoices, water chemistry billing, pool service overdue payment tracking</div>
       </article>

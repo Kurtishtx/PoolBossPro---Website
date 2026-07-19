@@ -42,6 +42,7 @@ export default function Page() {
           <h3>Stop Losing Pools to the Whiteboard</h3>
           <p>PoolBossPro regenerates your recurring routes, shows every open stop on the Job Board, and keeps skips on the books &mdash; so no weekly cleaning ever falls through the cracks.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">Keywords: pool scheduling software, recurring route scheduling, pool service software, crew dispatch and routing, water chemistry logging, pool cleaning software</div>

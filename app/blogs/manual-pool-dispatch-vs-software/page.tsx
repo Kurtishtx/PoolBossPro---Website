@@ -42,6 +42,7 @@ export default function Page() {
           <h3>Run your Monday on PoolBossPro, not a whiteboard</h3>
           <p>PoolBossPro builds your recurring routes, dispatches crews from a shared Job Board, logs full water chemistry, and bills the card on file&mdash;all from one place.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: pool route software, pool service dispatch software, pool cleaning scheduling software, water chemistry logging app, pool service invoicing software, pool maintenance crew routing</div>
       </article>

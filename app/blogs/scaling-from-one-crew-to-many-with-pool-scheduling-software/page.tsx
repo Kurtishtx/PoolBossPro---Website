@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Grow from one crew to many without losing control of the water.</h3>
           <p>PoolBossPro handles recurring routes, dispatch, water chemistry logs, card-on-file billing, and reporting so your pool service scales cleanly.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

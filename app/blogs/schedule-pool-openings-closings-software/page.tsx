@@ -41,6 +41,7 @@ export default function Page() {
           <h3>Run Your Whole Opening Season From One Screen</h3>
           <p>PoolBossPro batch-schedules openings and closings, routes your crews, logs water chemistry, and bills on file so seasonal work runs itself.</p>
           <a href="https://my.poolbosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: pool service scheduling software, pool opening and closing software, pool route scheduling, pool maintenance software, water chemistry logging software, pool crew dispatch software</div>
       </article>
