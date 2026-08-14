@@ -7,6 +7,21 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "PoolBossPro | Pool Service & Pool Route Software",
   description: "PoolBossPro is pool service software built by people who have run real pool routes — recurring scheduling, water-chemistry logging, route mapping, automated SMS, and Stripe billing. $99/month, everything included.",
+  /* Google's search results still show Vercel's default triangle for this domain, cached from
+     before the crown existed. The files themselves have been correct for a month — /favicon.ico
+     contains the crown at 16, 32 and 48px — but Google has no reason to refetch a URL it already
+     has, so the stale copy just sits there.
+
+     Versioning the URLs gives it something it has never seen. Paired with Request Indexing in
+     Search Console, that is what actually breaks the cache; waiting does not. */
+  icons: {
+    icon: [
+      { url: "/favicon.ico?v=2", sizes: "any" },
+      { url: "/icon.png?v=2", type: "image/png" },
+    ],
+    shortcut: "/favicon.ico?v=2",
+    apple: "/apple-icon.png?v=2",
+  },
 };
 
 
