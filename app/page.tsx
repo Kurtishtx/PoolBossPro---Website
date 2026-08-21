@@ -1,6 +1,7 @@
 'use client';
 import { useEffect } from 'react';
 import Navbar from './components/Navbar';
+import HeroDemo from './components/HeroDemo';
 
 const SBP_URL  = 'https://knjdbgroiyhvqwrpqzcx.supabase.co';
 const SBP_ANON = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtuamRiZ3JvaXlodnF3cnBxemN4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzk0OTczMDMsImV4cCI6MjA5NTA3MzMwM30.zoExtkem-XZqU86S4yJjA_xOOaS1G0IPU2M9OAAza2g';
@@ -216,6 +217,7 @@ export default function Home() {
       {/* ═══ HERO ═══ */}
       <div className="hero" style={{paddingTop:'110px'}}>
         <div className="hero-badge">Built for Pool Service &amp; Pool Maintenance</div>
+
         <h1>Run Your Entire Operation<br /><span>From One Dashboard</span></h1>
         <p>PoolBossPro is the all-in-one field management platform built specifically for pool service and pool maintenance businesses. Schedule visits, send estimates, collect payments, and keep your team coordinated — all in one place.</p>
         <div className="hero-btns">
@@ -229,6 +231,11 @@ export default function Home() {
           <div><div className="hero-stat-val">0</div><div className="hero-stat-lbl">Apps to Install</div></div>
           <div><div className="hero-stat-val">24/7</div><div className="hero-stat-lbl">Access Anywhere</div></div>
         </div>
+
+        {/* Live interactive demo — the same three-app switcher IndustryBossPro and
+            SprayBossPro carry. It also fires the pageview beacon, which is what makes
+            this site's traffic visible in demo_session_log at all. */}
+        <div style={{ marginTop: '54px' }}><HeroDemo /></div>
       </div>
 
       {/* ═══ PREMIUM BAND ═══ */}
