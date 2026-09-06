@@ -262,6 +262,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   entries.push({ url: BASE, lastModified: lm, changeFrequency: 'weekly', priority: 1 });
   for (const p of ['/features', '/pricing', '/blogs']) entries.push({ url: `${BASE}${p}`, lastModified: lm, changeFrequency: 'monthly', priority: 0.9 });
   for (const p of hubPages) entries.push({ url: `${BASE}${p}`, lastModified: lm, changeFrequency: 'monthly', priority: 0.9 });
+  entries.push({ url: `${BASE}/pool-service-software-canada`, lastModified: new Date('2026-09-06'), changeFrequency: 'monthly', priority: 0.9 });
   for (const p of vsPages) entries.push({ url: `${BASE}${p}`, lastModified: lm, changeFrequency: 'monthly', priority: 0.8 });
   for (const s of blogSlugs) entries.push({ url: `${BASE}/blogs/${s}`, lastModified: lm, changeFrequency: 'monthly', priority: 0.7 });
   return entries;
