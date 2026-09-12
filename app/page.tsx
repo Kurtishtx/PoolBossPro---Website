@@ -395,7 +395,7 @@ export default function Home() {
               <li>Water Chemistry Tracking &amp; Service Reports</li>
               <li>Package Plans &amp; Renewals</li>
               <li>Mobile App for Technicians</li>
-              <li>500 Outbound SMS/month included</li>
+              <li>500 texts/month included (sent + received)</li>
               <li>+$15 per additional 500 SMS after that</li>
             </ul>
             <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(2, e.currentTarget as HTMLElement); }} className="price-btn price-btn-primary">Start Your 14-Day Free Trial</a>

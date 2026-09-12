@@ -354,7 +354,7 @@ export default function Page() {
               <li>Estimates, invoices &amp; Stripe payments in CAD</li>
               <li>Tech mobile app &amp; branded customer app</li>
               <li>Automated email alerts from day one</li>
-              <li>500 outbound SMS/month included (Canadian number registered during onboarding)</li>
+              <li>500 texts/month included, sent and received (Canadian number registered during onboarding)</li>
             </ul>
             <button className="price-btn price-btn-primary" onClick={(e) => openTrial(e.currentTarget)}>Start Your 14-Day Free Trial</button>
           </div>
