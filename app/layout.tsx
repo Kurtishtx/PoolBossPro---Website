@@ -6,8 +6,14 @@ import "./globals.css";
 import MetaPixel from './components/MetaPixel';
 
 export const metadata: Metadata = {
+  /* Every route resolves its own canonical against this base, so a page reached as www vs
+     non-www, with a trailing slash, or carrying ?fbclid=/?utm_source= all point at one URL
+     instead of competing with each other. */
+  metadataBase: new URL('https://www.poolbosspro.com'),
+  alternates: { canonical: './' },
+
   title: "PoolBossPro | Pool Service & Pool Route Software",
-  description: "PoolBossPro is pool service software built by people who have run real pool routes — recurring scheduling, water-chemistry logging, route mapping, automated SMS, and Stripe billing. $99/month, everything included.",
+  description: "PoolBossPro is pool service software built by people who have run real pool routes — recurring scheduling, water-chemistry logging, route mapping, automated SMS, and Stripe billing. from $59/month, everything included.",
   /* Google's search results still show Vercel's default triangle for this domain, cached from
      before the crown existed. The files themselves have been correct for a month — /favicon.ico
      contains the crown at 16, 32 and 48px — but Google has no reason to refetch a URL it already
@@ -26,7 +32,7 @@ export const metadata: Metadata = {
 };
 
 
-const structuredData = {"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://poolbosspro.com/#organization","name":"PoolBossPro","url":"https://poolbosspro.com","logo":"https://poolbosspro.com/icon.png","description":"Pool service software with recurring route scheduling, water-chemistry logging, route mapping, automated SMS, and Stripe billing."},{"@type":"WebSite","@id":"https://poolbosspro.com/#website","url":"https://poolbosspro.com","name":"PoolBossPro","publisher":{"@id":"https://poolbosspro.com/#organization"}},{"@type":"SoftwareApplication","name":"PoolBossPro","applicationCategory":"BusinessApplication","operatingSystem":"Web, iOS, Android","description":"Pool service software with recurring route scheduling, water-chemistry logging, route mapping, automated SMS, and Stripe billing.","offers":{"@type":"Offer","price":"99","priceCurrency":"USD","description":"$99/month flat — everything included, 14-day free trial."},"publisher":{"@id":"https://poolbosspro.com/#organization"}}]};
+const structuredData = {"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://poolbosspro.com/#organization","name":"PoolBossPro","url":"https://poolbosspro.com","logo":"https://poolbosspro.com/icon.png","description":"Pool service software with recurring route scheduling, water-chemistry logging, route mapping, automated SMS, and Stripe billing."},{"@type":"WebSite","@id":"https://poolbosspro.com/#website","url":"https://poolbosspro.com","name":"PoolBossPro","publisher":{"@id":"https://poolbosspro.com/#organization"}},{"@type":"SoftwareApplication","name":"PoolBossPro","applicationCategory":"BusinessApplication","operatingSystem":"Web, iOS, Android","description":"Pool service software with recurring route scheduling, water-chemistry logging, route mapping, automated SMS, and Stripe billing.","offers":{"@type":"AggregateOffer","lowPrice":"59","highPrice":"199","offerCount":"3","priceCurrency":"USD","description":"from $59/month flat — everything included, 14-day free trial."},"publisher":{"@id":"https://poolbosspro.com/#organization"}}]};
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (

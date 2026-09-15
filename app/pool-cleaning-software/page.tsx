@@ -133,7 +133,7 @@ function SignupForm({ n }: { n: number }) {
     <div id={`sbp-form-${n}`} className="sbp-form">
       <div className="sbp-form-header">
         <div className="sbp-form-title">Start Your 14-Day Free Trial</div>
-        <div className="sbp-form-subtitle">No credit card required · Full access · $99/mo after your 14-day trial</div>
+        <div className="sbp-form-subtitle">No credit card required · Full access · from $59/mo after your 14-day trial</div>
         <button className="sbp-form-close" onClick={() => closeSignupModal(n)}>×</button>
       </div>
       <div id={`sbp${n}-step1`} className="sbp-form-body">
@@ -225,7 +225,7 @@ export default function PoolServiceSoftware() {
         <p>Most field service software is built for plumbers and HVAC techs. <a href="/" style={{color:'#5eead4', fontWeight:600}}>PoolBossPro</a> is built from the ground up for pool cleaning companies &mdash; the way you run recurring weekly cleaning routes, log water chemistry, dispatch crews, and bill cards on file is completely different, and your software should be too.</p>
         <div className="hero-btns">
           <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }} className="btn-primary">Start Your 14-Day Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
         <div className="hero-stats">
           <div><div className="hero-stat-val">Weekly</div><div className="hero-stat-lbl">Recurring Routes on Autopilot</div></div>
@@ -540,7 +540,7 @@ export default function PoolServiceSoftware() {
             {q:'How does crew dispatch and routing work?', a:'You open the Job Board, assign each pool to a technician and truck, and drag stops to build the tightest geographic route. Recurring cleanings, repairs, and green-to-clean jobs all sit on one board, and you can see live what\'s done, skipped, and pending as crews work the day.'},
             {q:'Can my techs log water chemistry from the field?', a:'Yes. On the mobile app your tech enters chlorine, pH, alkalinity, cyanuric acid, salt, and phosphate readings the moment a visit is done, along with the chemicals added. Every reading attaches to that pool\'s profile, building a complete water history you can show the customer.'},
             {q:'Does it handle billing and payments?', a:'Yes. PoolBossPro stores customer cards on file via Stripe, auto-bills monthly recurring service, and lets you charge after a repair. Send invoices, track unpaid and overdue balances, and collect without chasing anyone down — all in one place.'},
-            {q:'How much does PoolBossPro cost?', a:'$129/month, all features included. No per-user fees, no add-ons for SMS or routing, no setup fees. 14-day free trial with no credit card required.'},
+            {q:'How much does PoolBossPro cost?', a:'$129/month, all features included. No hidden fees, no add-ons for SMS or routing, no setup fees. 14-day free trial with no credit card required.'},
           ].map(({q, a}, i, arr) => (
             <div key={i} style={{padding:'28px 0', borderBottom: i < arr.length - 1 ? '1px solid var(--border)' : 'none'}}>
               <h3 style={{fontWeight:700, fontSize:'17px', color:'var(--text)', marginBottom:'10px', lineHeight:1.4}}>{q}</h3>
@@ -557,7 +557,7 @@ export default function PoolServiceSoftware() {
         <p>PoolBossPro is the only pool cleaning management software built by someone who has actually run a recurring pool route. Try it free for 14 days.</p>
         <div className="hero-btns">
           <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(3, e.currentTarget as HTMLElement); }} className="btn-primary" style={{fontSize:'17px', padding:'18px 44px'}}>Start Your 14-Day Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$99/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
       </div>
 

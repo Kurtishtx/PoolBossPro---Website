@@ -33,7 +33,7 @@ const faqs = [
   },
   {
     q: 'What does the subscription itself cost?',
-    a: 'One plan, $99 USD a month, every feature included — unlimited users, unlimited pools, no add-on modules. The subscription bills in US dollars and your bank converts. We would rather tell you that plainly here than have you discover it on a statement.',
+    a: 'One plan, $59 USD a month, every feature included — unlimited users, unlimited pools, no add-on modules. The subscription bills in US dollars and your bank converts. We would rather tell you that plainly here than have you discover it on a statement.',
   },
   {
     q: 'Does the automated texting work in Canada?',
@@ -76,7 +76,7 @@ export default function Page() {
       <div style={{ background: 'linear-gradient(135deg, #0f1720 0%, #1f2937 60%, #263445 100%)', padding: 'clamp(76px,7vw,80px) clamp(14px,4vw,40px) 0', textAlign: 'center' }}>
         <div style={{ textAlign: 'center', marginBottom: 'clamp(22px,3vw,32px)' }}>
           <div style={{ display: 'inline-flex', alignItems: 'baseline', gap: '12px', flexWrap: 'wrap', justifyContent: 'center', color: '#fff' }}>
-            <span style={{ fontSize: 'clamp(30px,4.6vw,46px)', fontWeight: 800, lineHeight: 1 }}>$99<span style={{ fontSize: '.46em', fontWeight: 700, color: 'rgba(255,255,255,.6)' }}>/month</span></span>
+            <span style={{ fontSize: 'clamp(30px,4.6vw,46px)', fontWeight: 800, lineHeight: 1 }}>$59<span style={{ fontSize: '.46em', fontWeight: 700, color: 'rgba(255,255,255,.6)' }}>/month</span></span>
             <span style={{ fontSize: 'clamp(16px,2.2vw,22px)', fontWeight: 800, color: 'var(--orange)' }}>&middot; 14-Day Free Trial</span>
           </div>
           <div style={{ color: 'rgba(255,255,255,.6)', fontSize: '13px', fontWeight: 600, marginTop: '7px', letterSpacing: '.3px' }}>No credit card required &middot; Cancel anytime &middot; Bills your customers in CAD</div>
@@ -91,7 +91,7 @@ export default function Page() {
         <p className="hero-sub">A Canadian pool season is twelve weeks of flat-out with a scheduling avalanche on either end &mdash; every account needs an opening in a few frantic May weeks and a closing before the first hard freeze. PoolBossPro runs both modes from one dashboard, and bills your customers in Canadian dollars while it does it. The demo above is the real software &mdash; go click it.</p>
         <div className="hero-btns">
           <a href="#" onClick={(e) => { e.preventDefault(); openTrial(e.currentTarget as HTMLElement); }} className="btn-primary">Start Your 14-Day Free Trial</a>
-          <div className="hero-trust">No sales call &nbsp;&middot;&nbsp; No credit card &nbsp;&middot;&nbsp; <b>$99/mo</b> flat, everything included</div>
+          <div className="hero-trust">No sales call &nbsp;&middot;&nbsp; No credit card &nbsp;&middot;&nbsp; <b>from $59/mo</b> flat, everything included</div>
         </div>
       </div>
 
@@ -384,7 +384,7 @@ export default function Page() {
       <div className="cta-band">
         <h2>The Season Is Short. Set Up Before It Starts.</h2>
         <p>
-          The demo is the same software you get. $99/month with every feature included, a 14-day free trial with no card up front &mdash; and your customers billed in Canadian dollars from the very first invoice.
+          The demo is the same software you get. from $59/month with every feature included, a 14-day free trial with no card up front &mdash; and your customers billed in Canadian dollars from the very first invoice.
         </p>
         <button className="btn-primary" onClick={(e) => openTrial(e.currentTarget)}>
           Start Your 14-Day Free Trial
